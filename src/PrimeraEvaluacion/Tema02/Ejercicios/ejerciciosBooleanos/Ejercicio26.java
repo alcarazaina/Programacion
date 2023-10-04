@@ -13,5 +13,10 @@ public class Ejercicio26 {
         int numero = teclado.nextInt();
         boolean resultado = numero < 10;
         System.out.println("El número es menor que 10, " + resultado);
+
+        //Otra forma de resolverlo: operador ternario
+
+        resultado = numero < 10 ? true : false;
+        System.out.println("El número es menor que 10: " + resultado);
     }
 }

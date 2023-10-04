@@ -10,7 +10,7 @@ public class Ejercicio27 {
         Scanner teclado = new Scanner(System.in);
         System.out.println("Introduce un número: ");
         int numero = teclado.nextInt();
-        boolean resultado = numero < 10 && numero >0;
-        System.out.println("El número es menor que 10 y mayor que 0, " + resultado);
+        boolean resultado = numero < 10 && numero > 0;
+        System.out.println("El número es menor que 10 y mayor que 0: " + resultado);
     }
 }
