@@ -21,5 +21,18 @@ expresión booleana y un cuerpo entre llaves.
         // ... Si es menor de edad (si es false, no se ejecuta la línea 17 y saltaría a esta línea.
         System.out.println("Esto se imprime siempre, tanto si es true o si es false");
 
+        //En vez de una expresión puedo poner una variable boolean directamente
+        //Entonces el ejemplo anterior podría quedar así:
+
+        boolean mayorDeEdad = edad >= 18;
+        if (mayorDeEdad) { //es lo mismo que poner mayorDeEdad == true
+            System.out.println("Sólo poniendo la variable mayor de edad, si es true se va a imprimir esto ");
+        }
+
+        if (!mayorDeEdad){ // es lo mismo que decir mayorDeEdad == false
+            System.out.println("No eres mayor de edad.");
+        }
+
+
     }
 }
