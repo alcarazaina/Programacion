@@ -31,8 +31,8 @@ de lo contrario, se muestra "no es una casa válida" .
             System.out.println("Astucia");
         } else if (casa == 4) {
             System.out.println("Intelecto");
-        }else {
-            System.out.println("Error");
+        } else {
+            System.out.println("Error, no es una casa válida");
         }
 
         }
