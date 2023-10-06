@@ -10,12 +10,16 @@ public class Ejercicio04 {
 
         //Tengo que tener previamente un usuario y contraseña para comparar luego
         String user = "ainara26";
-        String password = "Fernamdo6";
+        String password = "Fernando6";
         Scanner teclado = new Scanner(System.in);
         System.out.println("Usuario: ");
         String usuario = teclado.nextLine();
         System.out.println("Contraseña: ");
         String contraseña = teclado.nextLine();
+
+        if (contraseña.equals(password)){
+            System.out.println("Has entrado al sistema");
+        }
 
         // Estos datos se comparan con dos valores guardados previamente en el programa.
         // NEW ***** OJO **** CUANDO SE TRATA DE STRING LA COMPARACIÓN NO SE HACE CON ==
