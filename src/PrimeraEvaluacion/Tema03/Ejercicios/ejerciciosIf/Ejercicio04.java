@@ -17,8 +17,10 @@ public class Ejercicio04 {
         System.out.println("Contraseña: ");
         String contraseña = teclado.nextLine();
 
-        if (contraseña.equals(password)){
+        if (contraseña.equals(password) && usuario.equals(user)) {
             System.out.println("Has entrado al sistema");
+        } else {
+            System.out.println("Error de credenciales");
         }
 
         // Estos datos se comparan con dos valores guardados previamente en el programa.
