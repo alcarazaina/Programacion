@@ -14,7 +14,9 @@ public class Ejercicio03 {
         int num3 = teclado.nextInt();
         int num4 = teclado.nextInt();
         int num5 = teclado.nextInt();
-
+        //La idea es que cada vez que entra un número lo comparo con el mayor que tengo si el número nuevo es mayor lo reemplaza
+        //para esto utilizamos una variable temporal que va guardando el número mayor hasta el momento
+        // si declaro una variable entera y no le asigno un valor es como si pusiera 0
         int mayorTemporal = num1;
         if (mayorTemporal < num2) {
             mayorTemporal = num2;
