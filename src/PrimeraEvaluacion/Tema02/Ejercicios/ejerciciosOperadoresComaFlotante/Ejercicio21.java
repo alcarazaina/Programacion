@@ -11,9 +11,10 @@ public class Ejercicio21 {
         System.out.println("¿Cuánto cuesta la base de maquillaje de sephora? ");
         double precio = teclado.nextDouble();
         System.out.println("¿Cuántas bases vas a comprar? ");
-        double cantidad = teclado.nextDouble();
-        double iva = 0.21;
-        double precioConIva = (precio + (precio * iva));
+        int cantidad = teclado.nextInt();
+        System.out.println("Cuánto es el porcentaje de IVA: ");
+        int iva = teclado.nextInt();
+        double precioConIva = (precio + (precio * iva/100));
 
         System.out.printf("El importe total a abonar es de: %.2f", precioConIva * cantidad);
         System.out.println("€");
