@@ -8,7 +8,7 @@ public class Ejercicio21 {
        Realiza un programa que pida el precio de venta de un producto, la cantidad de productos comprados y el porcentaje de IVA aplicado. El programa mostrará el importe total a abonar
          */
         Scanner teclado = new Scanner(System.in);
-        System.out.println("¿Cuánto cuesta una base de maquillaje de sephora? ");
+        System.out.println("¿Cuánto cuesta la base de maquillaje de sephora? ");
         double precio = teclado.nextDouble();
         System.out.println("¿Cuántas bases vas a comprar? ");
         double cantidad = teclado.nextDouble();
