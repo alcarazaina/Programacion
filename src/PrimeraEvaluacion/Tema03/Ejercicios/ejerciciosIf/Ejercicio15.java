@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Ejercicio15 {
     public static void main(String[] args) {
         /*
-        Realizar un programa que pida un número entero por teclado y visualice el dia de la semana correspondiente.
+        Realizar un programa que pida un número entero por teclado y visualice el día de la semana correspondiente.
          */
         Scanner teclado = new Scanner(System.in);
         System.out.println("Introduce un número entero del 1 al 7: ");
