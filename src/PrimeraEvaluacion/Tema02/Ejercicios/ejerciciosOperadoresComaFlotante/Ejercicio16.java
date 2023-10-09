@@ -16,7 +16,7 @@ public class Ejercicio16 {
         double y2 = teclado.nextDouble();
 
         double distancia = Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow (y2 - y1, 2));
-        System.out.println("La distancia entre el punto a y el punto b es de: " + distancia);
+        System.out.printf("La distancia entre el punto a y el punto b es de: %.2f", distancia);
 
         }
     }
