@@ -13,8 +13,7 @@ Hacer un programa que pida dos números a y b, enteros, por teclado (se asume qu
         int b = teclado.nextInt();
         for (int i = a; i <= b; i++) {
             a = a + i;
-            System.out.print(a + " ");
-
         }
+        System.out.println(a);
     }
 }

@@ -8,7 +8,7 @@ Hacer un programa que calcule la suma de los números enteros del 1 al 10 (inclu
         int suma = 0;
         for (int i = 1; i < 11; i++) {
            suma = suma + i;
-            System.out.print(suma + " ");
         }
+        System.out.println(suma);
     }
 }
