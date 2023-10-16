@@ -11,6 +11,7 @@ Hacer un programa que pida dos números a y b, enteros, por teclado (se asume qu
         System.out.println("Introduce los números a y b ordenados de menos a mayor: ");
         int a = teclado.nextInt();
         int b = teclado.nextInt();
+
         int suma = 0;
         for (int i = a; i <= b; i++) {
             suma = suma + i;
