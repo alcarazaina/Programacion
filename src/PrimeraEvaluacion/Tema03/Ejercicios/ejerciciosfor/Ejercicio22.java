@@ -18,6 +18,6 @@ Hacer un programa que genere 10 números aleatoriamente y calcule su media.
         }
         System.out.println("La suma es: " + suma);
         double media = suma / 10.0;
-        System.out.println("La media es " + media);
+        System.out.printf("La media es %.2f", media);
     }
 }
