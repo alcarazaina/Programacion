@@ -11,7 +11,7 @@ Hacer un programa que genere 10 números aleatoriamente y calcule su media.
         Random generator = new Random();
         int numerosAleatorios = generator.nextInt(1,11);
         int suma = 0;
-        for (int i = 0; i <= 10; i++) {
+        for (int i = 1; i <= 10; i++) {
             System.out.println(numerosAleatorios);
             numerosAleatorios = generator.nextInt(1,11);
         suma = suma + numerosAleatorios;
