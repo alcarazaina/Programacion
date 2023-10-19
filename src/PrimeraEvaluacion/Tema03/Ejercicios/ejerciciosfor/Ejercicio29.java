@@ -14,7 +14,7 @@ public class Ejercicio29 {
         int resultado = 1;
         for (int i = potencia; i != 0; i--) {
             resultado = resultado * numero;
-            System.out.println(resultado);
         }
+        System.out.println(resultado);
     }
 }
