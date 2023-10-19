@@ -11,9 +11,10 @@ public class Ejercicio29 {
         System.out.println("Introduce un número y su potencia: ");
         int numero = teclado.nextInt();
         int potencia = teclado.nextInt();
-        int resultado = 0;
-        for (int i = numero; i <= potencia; resultado =  numero * numero) {
-            System.out.println(numero);
+        int resultado = 1;
+        for (int i = potencia; i != 0; i--) {
+            resultado = resultado * numero;
+            System.out.println(resultado);
         }
     }
 }
