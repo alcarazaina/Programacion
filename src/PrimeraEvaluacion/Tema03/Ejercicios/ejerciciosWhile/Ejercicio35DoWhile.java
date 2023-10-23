@@ -12,9 +12,12 @@ public class Ejercicio35DoWhile {
         int numeros = teclado.nextInt();
         int numeromayor = 0;
         do {
-            numeros = teclado.nextInt();
-            if (numeros > numeromayor){
-                numeromayor = numeros;}
+            if (numeros != 0){
+                numeros = teclado.nextInt();
+                if (numeros > numeromayor){
+                    numeromayor = numeros;}
+            }
+
         }while (numeros != 0);
 
         System.out.println(numeromayor);
