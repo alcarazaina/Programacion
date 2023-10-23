@@ -5,6 +5,13 @@ public class Ejercicio37 {
         /*
         Hacer un programa que imprima por pantalla los 50 primeros múltiplos de 5, añadiendo un salto de línea cada 10 números.
          */
-
+        int n = 0;
+        while (n < 50) {
+            if (n == 10 || n == 20 || n == 30 || n == 40){
+                System.out.println(" ");
+            }
+            n = n + 1;
+            System.out.print(5 * n + " ");
+        }
     }
 }
