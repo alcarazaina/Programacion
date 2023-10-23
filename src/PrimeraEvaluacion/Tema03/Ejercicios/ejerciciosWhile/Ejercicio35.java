@@ -10,10 +10,10 @@ public class Ejercicio35 {
         Scanner teclado = new Scanner(System.in);
         System.out.println("Introduce una serie de números, y 0 para finalizar: ");
         int numeros = teclado.nextInt();
-        int numeromayor = 0;
+        int numeromayor = numeros;
         while (numeros != 0){
             numeros = teclado.nextInt();
-            if (numeros > numeromayor){
+            if (numeros > numeromayor && numeros != 0){
                 numeromayor = numeros;
             }
         }
