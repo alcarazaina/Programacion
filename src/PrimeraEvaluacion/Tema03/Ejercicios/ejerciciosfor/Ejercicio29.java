@@ -9,12 +9,12 @@ public class Ejercicio29 {
          */
         Scanner teclado = new Scanner(System.in);
         System.out.println("Introduce un número y su potencia: ");
-        int numero = teclado.nextInt();
+        double numero = teclado.nextDouble();
         int potencia = teclado.nextInt();
-        int resultado = 1;
+        double resultado = 1;
         for (int i = potencia; i != 0; i--) {
             resultado = resultado * numero;
         }
-        System.out.println(resultado);
+        System.out.printf("%.2f", resultado);
     }
 }
