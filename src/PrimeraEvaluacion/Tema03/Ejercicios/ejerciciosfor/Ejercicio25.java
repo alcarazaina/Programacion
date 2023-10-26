@@ -11,6 +11,7 @@ public class Ejercicio25 {
         System.out.println("Introduce un número: ");
         int numero = teclado.nextInt();
         for (int i = 1; i <= numero; i++) {
+            System.out.print("Tabla del " + i + ": ");
             for (int j = 1; j < 11; j++) {
                 System.out.print(i * j + "\t"); // \t para tabular y que quede bien organizado
             }
