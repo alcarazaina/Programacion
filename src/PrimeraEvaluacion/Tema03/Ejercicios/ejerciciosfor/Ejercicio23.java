@@ -14,7 +14,7 @@ public class Ejercicio23 {
         String caracter = teclado.next();
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
-                System.out.print(caracter + " ");
+                System.out.print(caracter + "\t");
             }
             System.out.println();
         }

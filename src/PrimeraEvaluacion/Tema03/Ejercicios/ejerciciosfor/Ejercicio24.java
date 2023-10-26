@@ -17,14 +17,14 @@ public class Ejercicio24 {
         if (a < b){
         for (int i = 0; i < a; i++) {
             for (int j = 0; j < b; j++) {
-                System.out.print(caracter + " ");
+                System.out.print(caracter + "\t");
             }
             System.out.println();
          }
         }else {
             for (int i = 0; i < b; i++) {
                 for (int j = 0; j < a; j++) {
-                    System.out.print(caracter + " ");
+                    System.out.print(caracter + "\t");
                 }
                 System.out.println();
             }
