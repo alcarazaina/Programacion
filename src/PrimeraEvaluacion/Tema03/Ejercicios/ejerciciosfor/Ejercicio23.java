@@ -10,9 +10,11 @@ public class Ejercicio23 {
         Scanner teclado = new Scanner(System.in);
         System.out.println("Introduce las medidas de la tabla cuadrada: ");
         int n = teclado.nextInt();
+        System.out.println("Introduce un carácter: ");
+        String caracter = teclado.next();
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
-                System.out.print("# ");
+                System.out.print(caracter + " ");
             }
             System.out.println();
         }
