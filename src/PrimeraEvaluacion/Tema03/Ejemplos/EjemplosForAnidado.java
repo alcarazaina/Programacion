@@ -13,5 +13,19 @@ public class EjemplosForAnidado {
             //cada vez que finaliza una pasada completa del bucle interno hace un salto de linea antes de seguir incrementando i en el bucle externo
             System.out.println(); //para que haga la tabla si no te lo imprime en la misma línea
         }
+        System.out.println("\n\n");
+        //Otro ejemplo: bucle for anidado que imprima la tabla de multiplicar
+        //1 2 3 ... 10
+        //2 4 6 ... 20
+        //3 6 9 ... 30
+        //...
+        //10 20 30 ... 100
+
+        for (int i = 1; i < 11; i++) {
+            for (int j = 1; j < 11; j++) {
+                System.out.print(i * j + "\t"); // \t para tabular y que quede bien organizado
+            }
+            System.out.println();
+        }
     }
 }
