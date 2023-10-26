@@ -12,7 +12,7 @@ public class Ejercicio38 {
         char letra = 'a';
         while (letra != ' '){
             System.out.println("Introduce una letra del abecedario: ");
-            letra = teclado.next().charAt(0);
+            letra = teclado.next().charAt(0); //tiene que ser teclado.nextLine().charAt(0) porque si pongo solo next no coge el espacio
             letra = Character.toLowerCase(letra); // convertimos las vocales mayúsculas a minúsculas porque si no una A dice no vocal
             if (letra != ' ') {
                 if (letra == 'a' || letra == 'e' || letra == 'i' || letra == 'o' || letra == 'u') {
