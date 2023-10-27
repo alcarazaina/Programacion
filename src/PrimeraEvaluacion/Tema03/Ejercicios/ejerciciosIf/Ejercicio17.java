@@ -23,7 +23,7 @@ Finalmente, el programa escribe por pantalla el precio del helado resultante.
         System.out.println("Bienvenido a Helados DAE, ¿Qué toppings desea añadir a su helado? ");
         Scanner teclado = new Scanner(System.in);
         String topping = teclado.next();
-        double helado = 1.90;
+        double helado = 1.90; //Otra forma de hacerlo sería crear una costante que para crearla se utilizaría la palabra final y el nombre lo escribimos en mayúscula EJ: final double PRECIO_BASICO = 1.9 (en las constantes si se puede utilizar la barra baja);
         double oreo = 1;
         double kitkat = 1.50;
         double brownie = 0.75;
