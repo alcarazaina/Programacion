@@ -62,7 +62,7 @@ public class EjemplosString {
         System.out.println(subcadena);
 
         // replace(old, new) devuelve una nueva cadena obtenida reemplazando todas las apariciones de old con new que pueden ser caracteres o cadenas.
-        String nuevo = cadena1.replace("no", "si");
+        String nuevo = cadena1.replace("o", "i");
         System.out.println("Reemplazamos: " + nuevo);
 
         // trim() devuelve una copia de la cadena obtenida al omitir los espacios en blanco iniciales y finales. Ten en cuenta que el espacio en blanco incluye no solo el carácter de espacio, sino principalmente todo lo que parece vacío: tabulación, retorno de carro, carácter de nueva línea, etc.
