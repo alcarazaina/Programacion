@@ -75,5 +75,19 @@ public class EjemplosString {
         String sinBlancos = conBlancos.trim();
         System.out.println(sinBlancos);
         System.out.println(sinBlancos.length());
+
+        //Por ejemplo:
+        String primera1 = "primera";
+        String segunda1 = "segunda";
+
+        String primera2 = "primera";
+        String segunda2 = "SEGUNDA";
+
+        System.out.println(primera1.equals(segunda1));//“primera”.equals(“segunda”)->false
+        System.out.println(primera1.equals(primera2)); //“primera”.equals(“primera”)->true
+
+        System.out.println(segunda1.equals(segunda2));//“segunda”.equals(“SEGUNDA”)->false
+        System.out.println(segunda1.equalsIgnoreCase(segunda2)); // true
+
     }
 }
