@@ -68,6 +68,12 @@ public class EjemplosString {
         // trim() devuelve una copia de la cadena obtenida al omitir los espacios en blanco iniciales y finales. Ten en cuenta que el espacio en blanco incluye no solo el carácter de espacio, sino principalmente todo lo que parece vacío: tabulación, retorno de carro, carácter de nueva línea, etc.
         String trim = cadena1.trim();
         System.out.println("Quitamos espacios: " + trim);
-
+        String conBlancos = "     hola     ";
+        System.out.println(conBlancos);
+        System.out.println(conBlancos.length());
+        // quitamos los espacios de delate y detrás
+        String sinBlancos = conBlancos.trim();
+        System.out.println(sinBlancos);
+        System.out.println(sinBlancos.length());
     }
 }
