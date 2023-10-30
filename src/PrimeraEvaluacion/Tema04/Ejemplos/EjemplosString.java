@@ -58,8 +58,8 @@ public class EjemplosString {
         System.out.println("La cadena1 contiene no: " + contiene);
 
         // substring(posicionInicial, posicionFinal) devuelve una subcadena de la cadena en el rango: posicionInicial, posicionFinal - 1;
-        String posiciones = cadena1.substring(4,9);
-        System.out.println(posiciones);
+        String subcadena = cadena1.substring(4,9);
+        System.out.println(subcadena);
 
         // replace(old, new) devuelve una nueva cadena obtenida reemplazando todas las apariciones de old con new que pueden ser caracteres o cadenas.
         String nuevo = cadena1.replace("no", "si");
