@@ -34,6 +34,8 @@ public class EjemplosString {
         // isEmpty() devuelve true si la cadena está vacía; de lo contrario, false;
         boolean empty = cadena1.isEmpty();
         System.out.println("cadena1 esta vacía: " + empty);
+        boolean empty2 = cadena2.isEmpty();
+        System.out.println("cadena2 esta vacía: " + empty2);
 
         // toUpperCase() devuelve una nueva cadena en mayúsculas;
         String mayuscula = cadena1.toUpperCase();
