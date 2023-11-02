@@ -16,7 +16,7 @@ Para que el programa elija un número al azar utilizamos el método random de la
             System.out.println("Introduce un número del 1 al 100");
             n = teclado.nextInt();
             if (n == 0){
-                System.out.println("Te has rendido");
+                System.out.println("Te has rendido, el número era: " + numAleatorio);
             } else if (n < 1 || n > 100) {
                 System.out.println("Error");
             } else {
