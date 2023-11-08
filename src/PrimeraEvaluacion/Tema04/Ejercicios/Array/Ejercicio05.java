@@ -18,5 +18,12 @@ public class Ejercicio05 {
         Arrays.sort(array); // el método sort de la clase array ordena los arrays de menor a mayor
 
         System.out.println(Arrays.toString(array));
+
+        // ¿y si los quiero ordenar al revés, de mayor a menor?
+        int [] inverso = new int [array.length];
+        for (int i = array.length - 1; i >= 0; i--) {
+            inverso [i] = array[array.length -1 -i];
+        }
+        System.out.println(Arrays.toString(inverso));
     }
 }
