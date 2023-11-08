@@ -20,7 +20,7 @@ public class Ejercicio05 {
         System.out.println(Arrays.toString(array));
 
         // ¿y si los quiero ordenar al revés, de mayor a menor?
-        int [] inverso = new int [array.length];
+        int [] inverso = new int [array.length]; //tenemos que crear otro array porque si no no se puede
         for (int i = array.length - 1; i >= 0; i--) {
             inverso [i] = array[array.length -1 -i];
         }
