@@ -1,5 +1,6 @@
 package PrimeraEvaluacion.Tema04.Ejemplos;
 
+import java.lang.reflect.Array;
 import java.util.Arrays;
 
 public class EjemplosArray {
@@ -46,6 +47,46 @@ public class EjemplosArray {
         System.out.println();
             // Opción B: con el método toString() de la clase arrays
         System.out.println(Arrays.toString(numeros));
+
+        //Para comprobar si un array está ordenado
+        System.out.println("Vamos a comprobar si esta ordenado ");
+        int [] array = new int[5];
+        for (int i = 0; i < array.length; i++) {
+           if (i % 2 == 0){
+               array [i] = i + 2 * i;
+           } else {
+               array [i] = i - 2 * i;
+           }
+        }
+        System.out.println(Arrays.toString(array));
+        int [] array1 = {-1, 2, 3, 5, 7};
+        int [] array2 = {9, 8, 2, 0, -3};
+
+        // Imaginemos que no sabemos que contiene el array y queremos averiguar si está ordenado
+        //Orden ascendente
+        boolean ordenado = true;
+        for (int i = 0; i < array.length -1; i++) {
+           if (array [i] > array [i + 1]){
+               ordenado = false;
+               break; // nos saca fuera de for
+           }
+        }
+        if (ordenado) {
+            System.out.println("Está ordenado ascendente: " + ordenado);
+        } else { // si no esta ordenado ascendente está o descendente o no está ordenado
+            boolean ordenadoDescendente = true;
+            for (int i = 0; i < array.length -1; i++) {
+                if (array [i] < array [i + 1]){
+                    ordenadoDescendente = false;
+                    break; // nos saca fuera de for
+                }
+            }
+            if (ordenadoDescendente) {
+                System.out.println("Está ordenado descendente: " + ordenadoDescendente);
+            } else {
+                System.out.println("Está desordenado");
+            }
+        }
         }
     }
 
