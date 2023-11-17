@@ -14,6 +14,6 @@ public class Ejercicio29 {
         int numero3= teclado.nextInt();
 
         boolean resultado = numero1 !=numero2 && numero1 !=3 && numero2 !=numero3;
-        System.out.println("Los tres números son iguales: " + resultado);
+        System.out.println("Los tres números no son iguales: " + resultado);
     }
 }
