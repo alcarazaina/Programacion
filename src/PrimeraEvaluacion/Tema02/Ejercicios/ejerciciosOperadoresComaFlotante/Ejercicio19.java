@@ -23,8 +23,7 @@ public class Ejercicio19 {
 
         double suma = programacion + basededatos + lenguajedemarcas + fol + entornos + sistemas;
         double media = suma / 6;
-        System.out.print("Mentira, no has podido sacar notas porque todavía no hemos hecho ningún examen, aun así la media con los datos que has introducido es: ");
-        System.out.println(media);
-        System.out.printf("Por lo tanto tu nota final se quedaría en un %.0f", media);
+        System.out.printf("Mentira, no has podido sacar notas porque todavía no hemos hecho ningún examen, aun así la media con los datos que has introducido es: \n%.2f", media);
+        System.out.printf("\nPor lo tanto tu nota final se quedaría en un %.0f", media);
     }
 }
