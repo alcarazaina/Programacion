@@ -7,7 +7,7 @@ public class Ejercicio37 {
          */
         int n = 0;
         while (n < 50) {
-            if (n == 10 || n == 20 || n == 30 || n == 40){
+            if (n % 10 == 0){
                 System.out.println(" ");
             }
             n = n + 1;
