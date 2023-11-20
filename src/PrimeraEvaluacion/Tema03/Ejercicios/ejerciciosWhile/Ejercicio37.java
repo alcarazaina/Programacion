@@ -8,7 +8,7 @@ public class Ejercicio37 {
         int n = 0;
         while (n < 50) {
             if (n % 10 == 0){
-                System.out.println(" ");
+                System.out.println();
             }
             n = n + 1;
             System.out.print(5 * n + " ");
