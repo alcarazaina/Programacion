@@ -9,15 +9,14 @@ public class Ejercicio15 {
          */
         Scanner teclado = new Scanner(System.in);
         int contador = 0;
-        int n = 0;
         System.out.println("introduce una cadena de texto: ");
         String cadena = teclado.nextLine();
         System.out.println("Introduce un carácter: ");
         char caracter =  teclado.next().charAt(0);
         for (int i = 0; i < cadena.length(); i++) {
-            if (cadena.charAt(n) == caracter) {
+            if (cadena.charAt(i) == caracter) {
                 contador++;
-            } n++;
+            }
         }
         System.out.println(contador);
     }
