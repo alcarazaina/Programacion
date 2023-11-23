@@ -9,8 +9,20 @@ public class Ejercicio15 {
          */
         Random generador = new Random();
         int[] array = new int[10];
+        int pares = 0;
+        int impares = 0;
         for (int i = 0; i < array.length; i++) {
             array [i] = generador.nextInt(1,10);
         }
+        for (int i = 0; i < array.length; i++) {
+            if (array[i] % 2 == 0){
+                pares++;
+            }else {
+                impares++;
+            }
+        }
+        int[] arraypares = new int[pares];
+        int[] arrayimpa = new int[impares];
+
     }
 }
