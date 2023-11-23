@@ -24,16 +24,21 @@ public class Ejercicio15 {
         }
         int[] arraypares = new int[pares];
         int[] arrayimpa = new int[impares];
-        for (int i = 0; i < arraypares.length; i++) {
+
+        int ultimoPar = 0;
+        int ultimoImpar = 0;
+        for (int i = 0; i < array.length; i++){
             if (array[i] % 2 == 0){
-                array[i] = arraypares[i];
+                arraypares[ultimoPar] = array[i];
+                ultimoPar++;
+            } else{
+                arrayimpa[ultimoImpar] = array[i];
+                ultimoImpar++;
             }
-        }
-        for (int i = 0; i < arrayimpa.length; i++) {
-            if (array[i] % 2 != 0){
-                array[i] = arrayimpa[i];
+
             }
-        }
+
+        System.out.println("Array" + Arrays.toString(array));
         System.out.println("Impares" + Arrays.toString(arrayimpa));
         System.out.println("Pares" + Arrays.toString(arraypares));
     }
