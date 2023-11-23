@@ -1,5 +1,6 @@
 package PrimeraEvaluacion.Tema04.Ejercicios.Array;
 
+import java.util.Arrays;
 import java.util.Random;
 
 public class Ejercicio15 {
@@ -23,6 +24,17 @@ public class Ejercicio15 {
         }
         int[] arraypares = new int[pares];
         int[] arrayimpa = new int[impares];
-
+        for (int i = 0; i < arraypares.length; i++) {
+            if (array[i] % 2 == 0){
+                array[i] = arraypares[i];
+            }
+        }
+        for (int i = 0; i < arrayimpa.length; i++) {
+            if (array[i] % 2 != 0){
+                array[i] = arrayimpa[i];
+            }
+        }
+        System.out.println("Impares" + Arrays.toString(arrayimpa));
+        System.out.println("Pares" + Arrays.toString(arraypares));
     }
 }
