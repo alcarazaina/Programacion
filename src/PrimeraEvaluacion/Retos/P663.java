@@ -13,8 +13,6 @@ public class P663 {
             año = teclado.nextInt();
             if (año > 0){
                 System.out.println(año - 1);
-            } else if (año == 0) {
-                System.out.println(año + 1);
             } else {
                 System.out.println(año);
             }
