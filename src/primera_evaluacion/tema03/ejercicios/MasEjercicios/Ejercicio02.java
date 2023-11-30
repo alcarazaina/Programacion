@@ -14,10 +14,10 @@ public class Ejercicio02 {
         int referencia = teclado.nextInt();
         while (n != 0){
             n = teclado.nextInt();
-            if (n < referencia){
+            if (n < referencia && n != 0){
                 contadorfallo++;
-                referencia = n;
             }
+            referencia = n;
             contador++;
         }
         System.out.println("Total números introducidos: " + contador);
