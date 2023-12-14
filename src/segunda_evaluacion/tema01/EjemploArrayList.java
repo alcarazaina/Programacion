@@ -1,6 +1,8 @@
 package segunda_evaluacion.tema01;
 
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
 
 public class EjemploArrayList {
     public static void main(String[] args) {
@@ -47,5 +49,9 @@ public class EjemploArrayList {
         //queremos eliminar a Justino de la lista
         nombres.remove(1); //o nombres.remove("Justino");
         System.out.println(nombres);
+
+        //ordenar Arraylist
+        Collections.sort(nombres);
+        System.out.println("Arraylist ordenado: " + nombres);
     }
 }
