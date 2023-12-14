@@ -45,7 +45,7 @@ public class EjemploArrayList {
         System.out.println("He sustituido a Elena por Mario" + nombres);
 
         //queremos eliminar a Justino de la lista
-        nombres.remove(1);
+        nombres.remove(1); //o nombres.remove("Justino");
         System.out.println(nombres);
     }
 }
