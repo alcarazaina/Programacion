@@ -20,5 +20,11 @@ public class Ejercicio04 {
             aleatorios.add(generador.nextInt(1,11));
         }
         System.out.println(aleatorios);
+
+        int suma = 0;
+        for (int i = 0; i < longitud; i++) {
+            suma += aleatorios.get(i);
+        }
+        System.out.println(suma);
     }
 }
