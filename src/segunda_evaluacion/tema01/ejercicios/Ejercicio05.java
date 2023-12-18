@@ -13,8 +13,9 @@ public class Ejercicio05 {
         ArrayList<Integer> lista = new ArrayList<>(10);
 
         for (int i = 0; i < 10; i++) {
-            lista.add(generador.nextInt(1,10));
+            lista.add(generador.nextInt(1,11));
         }
+        System.out.println(lista);
        Collections.sort(lista);
         System.out.println(lista);
     }
