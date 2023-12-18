@@ -22,6 +22,8 @@ public class Ejercicio03 {
             a3.add(a1.get(i) + a2.get(i));
 
         }
+        System.out.println(a1);
+        System.out.println(a2);
         System.out.println(a3);
     }
 }
