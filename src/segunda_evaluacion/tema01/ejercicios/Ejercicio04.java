@@ -17,7 +17,7 @@ public class Ejercicio04 {
         ArrayList<Integer> aleatorios = new ArrayList<>(longitud);
 
         for (int i = 0; i < longitud; i++) {
-            aleatorios.add(generador.nextInt(1,10));
+            aleatorios.add(generador.nextInt(1,11));
         }
         System.out.println(aleatorios);
     }
