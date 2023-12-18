@@ -1,4 +1,4 @@
-package segunda_evaluacion.tema01;
+package segunda_evaluacion.tema01.ejemplos;
 
 import java.util.ArrayList;
 import java.util.Collection;
