@@ -1,7 +1,6 @@
-package segunda_evaluacion.tema01.ejemplos;
+package segunda_evaluacion.tema06.ejemplos;
 
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Collections;
 
 public class EjemploArrayList {

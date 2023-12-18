@@ -1,9 +1,8 @@
-package segunda_evaluacion.tema01.ejercicios;
+package segunda_evaluacion.tema06.ejercicios;
 
 import java.util.ArrayList;
 import java.util.Random;
 import java.util.Scanner;
-import java.util.random.RandomGenerator;
 
 public class Ejercicio04 {
     public static void main(String[] args) {

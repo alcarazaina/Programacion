@@ -1,4 +1,4 @@
-package segunda_evaluacion.tema01.ejercicios;
+package segunda_evaluacion.tema06.ejercicios;
 
 import java.util.ArrayList;
 import java.util.Scanner;
