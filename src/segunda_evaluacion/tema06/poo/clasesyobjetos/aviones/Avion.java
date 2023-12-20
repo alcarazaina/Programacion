@@ -1,6 +1,6 @@
 package segunda_evaluacion.tema06.poo.clasesyobjetos.aviones;
 
-public class avion {
+public class Avion {
     private String nombre;
     private int aforo;
     private int velocidadmedia;
@@ -38,7 +38,7 @@ public class avion {
         this.coordenadas = coordenadas;
     }
 
-    public avion(String nombre, int aforo, int velocidadmedia, int coordenadas) {
+    public Avion(String nombre, int aforo, int velocidadmedia, int coordenadas) {
         this.nombre = nombre;
         this.aforo = aforo;
         this.velocidadmedia = velocidadmedia;

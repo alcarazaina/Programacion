@@ -2,8 +2,8 @@ package segunda_evaluacion.tema06.poo.clasesyobjetos.aviones;
 
 public class Main {
     public static void main(String[] args) {
-        avion airbusa320 = new avion("Airbus A320",98,400, 873910379);
-        avion boeing777 = new avion("Boeing 777", 123,390,342874029);
+        Avion airbusa320 = new Avion("Airbus A320",98,400, 873910379);
+        Avion boeing777 = new Avion("Boeing 777", 123,390,342874029);
 
         System.out.println("Nombre: " + airbusa320.getNombre());
         System.out.println("Aforo: " + airbusa320.getAforo());
