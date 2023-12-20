@@ -10,10 +10,11 @@ public class EjemplosMetodos {
         // pedimos el segundo número
         double num2 = pedirNumero();
 
-        double resultadoSuma = suma(num1,num2); // en la llamada doy valores concretos
-        double resultadoResta = resta(num1,num2);
-        double resultadoMulti = multiplicacion(num1,num2);
-        double resultadoDivision = division(num1,num2);
+        // Mostramos el menú y guardamos la opcion que devuelve
+        int opcion = mostrarMenu();
+        // realizamos la operación solicitada
+        realizarOperacion(opcion,num1,num2);
+
     }
 
     // Alt + 7 para abrir la estructura para ver los metodos
@@ -49,5 +50,34 @@ public class EjemplosMetodos {
         System.out.println("4. Divide");
         int opcion = teclado.nextInt();
         return opcion;
+    }
+    public static void realizarOperacion(int opcion, double num1, double num2){
+        double resultado = 0;
+        String signo = "";
+        switch (opcion){
+          case 1:
+              resultado = suma(num1, num2);
+              signo = " + ";
+              break;
+          case 2:
+                resultado= resta(num1, num2);
+                signo = " - ";
+                break;
+          case 3:
+                resultado = multiplicacion(num1, num2);
+                signo = " * ";
+                break;
+          case 4:
+                resultado= division(num1, num2);
+                signo = " / ";
+                break;
+            default:
+                System.out.println("Operacion incorrecta.");
+                break;
+        }
+        // mostramos el resultado
+        if (!signo.equals("")){
+            System.out.printf("%.2f %s %.2f = %.2f", num1, signo, num2, resultado);
+        }
     }
 }
