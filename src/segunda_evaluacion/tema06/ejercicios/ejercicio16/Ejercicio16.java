@@ -13,27 +13,21 @@ Mostrar: muestra la lista de cadenas
 Salir
          */
 
-        String cadena = pedirCadena();
+        String cadena = pedirCadena("Introduce una lista de palabras: ");
         int opcion = 0;
        while (opcion != 5 ){
            opcion = mostrarMenu();
            cadena = elegir(opcion, cadena);
        }
     }
-    public static String pedirCadena(){
+    public static String pedirCadena(String introduce){
         Scanner teclado = new Scanner(System.in);
-        System.out.println("Introduce una cadena de texto");
-        String cadena = teclado.nextLine();
-        return cadena;
+        System.out.println(introduce);
+        return teclado.nextLine();
     }
     public static int mostrarMenu(){
         Scanner teclado = new Scanner(System.in);
-        System.out.println("¿Qué vamos a hacer? ");
-        System.out.println("1. Contar");
-        System.out.println("2. Modificar");
-        System.out.println("3. Eliminar");
-        System.out.println("4. Mostrar");
-        System.out.println("5. Salir");
+        System.out.println("¿Qué vamos a hacer? \n1. Contar\n2. Modificar\n3. Eliminar\n4. Mostrar\n5. Salir");
         int opcion = teclado.nextInt();
         return opcion;
 
