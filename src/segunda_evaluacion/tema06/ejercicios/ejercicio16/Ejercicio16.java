@@ -83,6 +83,8 @@ Salir
             case 5:
                 System.out.println("Has salido del programa");
                 break;
+            default:
+                System.out.println("Opción incorrecta.");
         }
 
         return cadena;
