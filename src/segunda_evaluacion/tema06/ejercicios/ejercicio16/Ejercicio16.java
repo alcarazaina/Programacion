@@ -3,6 +3,7 @@ package segunda_evaluacion.tema06.ejercicios.ejercicio16;
 import java.util.Scanner;
 
 public class Ejercicio16 {
+    public static Scanner teclado = new Scanner(System.in); // asi puedo utilizar este Scanner sin tener que pedirlo siempre en los metodos
     public static void main(String[] args) {
         /*
         Escribe un programa que pida una lista de palabras (la guardas como una cadena de texto) y, a continuación dé tres opciones:
@@ -26,14 +27,12 @@ Salir
         return teclado.nextLine();
     }
     public static int mostrarMenu(){
-        Scanner teclado = new Scanner(System.in);
         System.out.println("¿Qué vamos a hacer? \n1. Contar\n2. Modificar\n3. Eliminar\n4. Mostrar\n5. Salir");
-        int opcion = teclado.nextInt();
+        int opcion = teclado.nextInt(); teclado.nextLine();
         return opcion;
 
     }
     public static int contar(String cadena){
-        Scanner teclado = new Scanner(System.in);
         System.out.println("Introduce una palabra para contar: ");
         String palabra = teclado.nextLine();
         int contador = 0;
@@ -46,7 +45,6 @@ Salir
         return contador;
     }
     public static String modificar(String cadena){
-        Scanner teclado = new Scanner(System.in);
         System.out.println("Introduce una palabra nueva: ");
         String palabra = teclado.nextLine();
         System.out.println("¿Qué palabra vamos a modificar? ");
@@ -55,7 +53,6 @@ Salir
         return cadenaNueva;
     }
     public static String eliminar (String cadena){
-        Scanner teclado = new Scanner(System.in);
         System.out.println("¿Qué palabra vamos a eliminar? ");
         String palabra = teclado.nextLine();
         String cadenaNueva = cadena.replaceAll(palabra, "");
