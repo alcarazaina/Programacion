@@ -44,14 +44,14 @@ public class Usuario {
                 '}';
     }
     public void login(){
-        System.out.println("Log in");
+        System.out.println("Has hecho Log in con tu perfil: " + nombreUsuario);
     }
     public void logout(){
-        System.out.println("Log out");
+        System.out.println("Saliste del perfil: " + nombreUsuario);
 
     }
     public void comprar(){
-        System.out.println("Comprar");
+        System.out.println("La compra se ha realizado correctamente");
 
     }
 }
