@@ -1,5 +1,7 @@
 package segunda_evaluacion.tema06Colecciones.ejemplos;
 
+import java.util.HashSet;
+
 public class EjemplosHashSet {
     public static void main(String[] args) {
         // Los conjuntos (set) son estructuras dinámicas en que
@@ -8,6 +10,15 @@ public class EjemplosHashSet {
 
         // Como utilizar los conjuntos:
 
+        HashSet<Integer> conjunto = new HashSet<>();
 
+        // los métodos que puedo utilizar son prácticamente los mismos que en arraylist
+        conjunto.add(5);
+        conjunto.add(5);
+        conjunto.add(7);
+        conjunto.add(8);
+        conjunto.add(9);
+        conjunto.add(10);
+        System.out.println(conjunto);
     }
 }
