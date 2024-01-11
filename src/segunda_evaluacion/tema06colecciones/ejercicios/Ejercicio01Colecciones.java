@@ -10,9 +10,6 @@ public class Ejercicio01Colecciones {
         Implementar una aplicación que pida por consola números enteros no negativos hasta que se introduce -1. Los números se irán insertando en una colección, no pudiéndose repetir. Al terminar, se mostrará la colección por pantalla. A continuación, se mostrarán todos los valores pares. Por último, se eliminarán todos los múltiplos de 3 y se mostrará por pantalla la colección resultante. Utiliza métodos para las diferentes tareas.
          */
         HashSet<Integer> coleccion = new HashSet<>();
-        //int numero = pedirNumero("Introduce un número: ");
-        //coleccion.add(numero);
-        //comprobar(numero, coleccion);
         coleccion = pedirDatos();
         mostrarNumero(coleccion);
         mostrarPares(coleccion);
@@ -27,12 +24,6 @@ public class Ejercicio01Colecciones {
     public static void mostrarNumero(HashSet<Integer> coleccion){
         System.out.println(coleccion);
     }
-   /* public static void comprobar(int numero, HashSet<Integer> coleccion){
-        while (numero != -1){
-            coleccion.add(numero);
-            numero = pedirNumero("Introduce un número (-1 para terminar): ");
-        }
-    } */
 
     public static HashSet<Integer> pedirDatos(){
         HashSet<Integer> coleccion = new HashSet<>();
