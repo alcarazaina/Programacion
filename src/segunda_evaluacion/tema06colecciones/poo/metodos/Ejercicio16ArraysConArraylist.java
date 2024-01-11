@@ -53,17 +53,12 @@ public class Ejercicio16ArraysConArraylist {
                     break;
                 case 3:
 
-                    // Añadir número en una posición: pide un número y una posición, y si la posición existe en el array lo añade en esa posición (la posición se pide a partir de 1).
-                    numero = pedirNumero("Introduce número: ");
-                    indice = pedirNumero("¿En que índice lo ponemos? ");
-                    if (indice <= numeros.size() - 1 && indice >= 0){
-                        numeros.add(indice, numero);
-                    }
+                   añadirEnPosicion(numeros);
+
                     break;
                 case 4:
-                    // Longitud del array: muestra el tamaño del array.
-                    System.out.println("Tamaño del array: " + numeros.size());
 
+                    mostrarTamaño(numeros);
                     break;
                 case 5:
                     // Eliminar el último número: muestra el último número del array y lo borra.
@@ -74,26 +69,10 @@ public class Ejercicio16ArraysConArraylist {
                     eliminarNumero(numeros);
                     break;
                 case 7:
-                    //Contar números: pide un número y te dice cuántas veces aparece en el array.
-                    numero = pedirNumero("Dime el número que quieres contar");
-                    int contador = 0;
-                    for (Integer elemento: numeros) {
-                        if (elemento == numero) {
-                            contador++;
-                        }
-                    }
-                    System.out.println("El número " + numero + " aparece " + contador + " veces.");
+                    contarNumeros(numeros);
                     break;
                 case 8:
-                    //Posiciones de un número: pide un número y te dice en que posiciones está.
-                    ArrayList<Integer> posiciones = new ArrayList<>();
-                    numero = pedirNumero("Dime el número que quieres buscar: ");
-                    for (int i = 0; i < numeros.size(); i++) {
-                        if (numeros.get(i) == numero) {
-                            posiciones.add(i);
-                        }
-                    }
-                    System.out.println("El número " + numero + " aparece en las posiciones " + posiciones);
+                   posicion(numeros);
                     break;
                 case 9:
                     //Salir
@@ -134,4 +113,38 @@ public class Ejercicio16ArraysConArraylist {
             numeros.remove(indice);
         }
     }
+    public static void añadirEnPosicion (ArrayList<Integer> numeros) {
+        // Añadir número en una posición: pide un número y una posición, y si la posición existe en el array lo añade en esa posición (la posición se pide a partir de 1).
+        int numero = pedirNumero("Introduce número: ");
+        int indice = pedirNumero("¿En que índice lo ponemos? ");
+        if (indice <= numeros.size() - 1 && indice >= 0) {
+            numeros.add(indice, numero);
+        }
+    }
+        public static void mostrarTamaño (ArrayList<Integer> numeros){
+            // Longitud del array: muestra el tamaño del array.
+            System.out.println("Tamaño del array: " + numeros.size());
+        }
+        public static void contarNumeros (ArrayList<Integer> numeros){
+            //Contar números: pide un número y te dice cuántas veces aparece en el array.
+            int numero = pedirNumero("Dime el número que quieres contar");
+            int contador = 0;
+            for (Integer elemento: numeros) {
+                if (elemento == numero) {
+                    contador++;
+                }
+            }
+            System.out.println("El número " + numero + " aparece " + contador + " veces.");
+        }
+        public static void posicion (ArrayList<Integer> numeros){
+            //Posiciones de un número: pide un número y te dice en que posiciones está.
+            ArrayList<Integer> posiciones = new ArrayList<>();
+            int numero = pedirNumero("Dime el número que quieres buscar: ");
+            for (int i = 0; i < numeros.size(); i++) {
+                if (numeros.get(i) == numero) {
+                    posiciones.add(i);
+                }
+            }
+            System.out.println("El número " + numero + " aparece en las posiciones " + posiciones);
+        }
 }
