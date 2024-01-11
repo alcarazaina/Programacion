@@ -11,6 +11,11 @@ public class Ejercicio16ArraysConArraylist {
         // otra forma: int tamaño = Integer.parseInt(teclado.nextLine());
 
        //  int tamaño = pedirNumero("Introduce tamaño"); // me da igual porque es un Arraylist
+        menu();
+
+    }
+
+    public static void menu(){
 
         // crear arraylist de numero enteros
         ArrayList<Integer> numeros = crearArraylist();
@@ -88,7 +93,7 @@ public class Ejercicio16ArraysConArraylist {
                             posiciones.add(i);
                         }
                     }
-                    System.out.println("El número " + numero + " aparece en las posiciones " + indice);
+                    System.out.println("El número " + numero + " aparece en las posiciones " + posiciones);
                     break;
                 case 9:
                     //Salir
@@ -97,7 +102,6 @@ public class Ejercicio16ArraysConArraylist {
                     System.out.println("Opcion incorrecta.");
             }
         }
-
 
     }
 
