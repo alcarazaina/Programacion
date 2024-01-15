@@ -12,11 +12,11 @@ static boolean nuevoAcadémico(Map<Character, Académico> academia, Académico n
 donde se lleva a cabo la inserción después de comprobar que el carácter pasado como parámetro es una letra del abecedario.
          */
 
-        Academico academico1 = new Academico("Pablo", 2021);
-        Academico academico2 = new Academico("Pedro", 2020);
-        Academico academico3 = new Academico("Lucia", 2023);
-        Academico academico4 = new Academico("Marcos", 2015);
-        Academico academico5 = new Academico("Sofía", 2013);
+        Academico academico1 = new Academico("Álvaro Pombo", 2004);
+        Academico academico2 = new Academico("José Manuel Blecua", 2006);
+        Academico academico3 = new Academico("Pedro R. García Barreno", 2006);
+        Academico academico4 = new Academico("Antonio Fernández de Alba", 2006);
+        Academico academico5 = new Academico("José María Merino", 2009);
 
         HashMap <Character, Academico> sillones = new HashMap<>();
         sillones.put('a', academico1);
