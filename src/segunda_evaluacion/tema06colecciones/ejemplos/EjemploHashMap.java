@@ -1,6 +1,7 @@
 package segunda_evaluacion.tema06colecciones.ejemplos;
 
 import java.util.HashMap;
+import java.util.Map;
 import java.util.Scanner;
 
 public class EjemploHashMap {
@@ -54,6 +55,18 @@ public class EjemploHashMap {
                 }
             }
         } while (numero != 0);
+
+        // recorrer un mapa no es tan sencillo como un simple for, tiene su truco
+        // hay varias formas, vamos a ver aquí la que utiliza Map.Entry
+        // cada uno de los pares clave-valor es una entrada (Entry)
+        // para referirnos a una entrada utilizaremos Map.Entry (entrada del mapa)
+        // vamos a recorrer todas las entradas con un foreach
+        for (Map.Entry<Integer, String> entrada: numeroIng.entrySet()) {
+            int clave = entrada.getKey();
+            String valor = entrada.getValue();
+            System.out.println(clave + " en inglés es " + valor);
+        }
+
 
 
 
