@@ -1,5 +1,7 @@
 package segunda_evaluacion.tema06colecciones.ejercicios.ejercicio02rae;
 
+import java.util.HashMap;
+
 public class Ejercicio02 {
     public static void main(String[] args) {
                /*
@@ -9,5 +11,21 @@ Implementar un programa donde se crean cinco objetos Académico, que se insertan
 static boolean nuevoAcadémico(Map<Character, Académico> academia, Académico nuevo, Character letra),
 donde se lleva a cabo la inserción después de comprobar que el carácter pasado como parámetro es una letra del abecedario.
          */
+
+        Academico academico1 = new Academico("Pablo", 2021);
+        Academico academico2 = new Academico("Pedro", 2020);
+        Academico academico3 = new Academico("Lucia", 2023);
+        Academico academico4 = new Academico("Marcos", 2015);
+        Academico academico5 = new Academico("Sofía", 2013);
+
+        HashMap <Character, Academico> sillones = new HashMap<>();
+        sillones.put('a', academico1);
+        sillones.put('b', academico2);
+        sillones.put('c', academico3);
+        sillones.put('d', academico4);
+        sillones.put('f', academico5);
+
+
+
     }
 }
