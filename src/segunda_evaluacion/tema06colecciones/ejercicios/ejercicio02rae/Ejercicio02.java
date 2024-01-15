@@ -1,6 +1,7 @@
 package segunda_evaluacion.tema06colecciones.ejercicios.ejercicio02rae;
 
 import java.util.HashMap;
+import java.util.Scanner;
 
 public class Ejercicio02 {
     public static void main(String[] args) {
@@ -24,6 +25,13 @@ donde se lleva a cabo la inserción después de comprobar que el carácter pasad
         sillones.put('c', academico3);
         sillones.put('d', academico4);
         sillones.put('f', academico5);
+
+        System.out.println(sillones);
+
+        Scanner teclado = new Scanner(System.in);
+        System.out.println("Sillon: ");
+        char sillon = teclado.next().charAt(0);
+        System.out.println(sillones.get(sillon));
 
 
 
