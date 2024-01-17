@@ -1,33 +1,39 @@
 package segunda_evaluacion.tema06colecciones.ejercicios.ejercicio02rae;
 
 import java.util.HashMap;
+import java.util.Map;
 import java.util.Scanner;
 
 public class Ejercicio02 {
     public static void main(String[] args) {
-               /*
-        Los miembros de la Real Academia de la Lengua ocupan sillones con las letras del abecedario español, minúsculas y mayúsculas (en la práctica, las leras v, w, x, y, z, Ñ, W, Y nunca se ocupan, pero nosotros no lo tendremos en cuenta). Cuando un sillón queda vacante, se nombra un nuevo académico para ocuparlo.
-Implementar la clase Académico, cuyos atributos son el nombre y el año de ingreso.
-Implementar un programa donde se crean cinco objetos Académico, que se insertan en un mapa en el que la clave es la letra del sillón que ocupan, y el valor un objeto de la clase Académico. Para ello implementar el método estático:
-static boolean nuevoAcadémico(Map<Character, Académico> academia, Académico nuevo, Character letra),
-donde se lleva a cabo la inserción después de comprobar que el carácter pasado como parámetro es una letra del abecedario.
-         */
 
-        Academico academico1 = new Academico("Álvaro Pombo", 2004);
-        Academico academico2 = new Academico("José Manuel Blecua", 2006);
-        Academico academico3 = new Academico("Pedro R. García Barreno", 2006);
-        Academico academico4 = new Academico("Antonio Fernández de Alba", 2006);
-        Academico academico5 = new Academico("José María Merino", 2009);
+        Academico academico1 = crearAcademico("Álvaro Pombo", 2004);
+        Academico academico2 = crearAcademico("José Manuel Blecua", 2006);
+        Academico academico3 = crearAcademico("Pedro R. García Barreno", 2006);
+        Academico academico4 = crearAcademico("Antonio Fernández de Alba", 2006);
+        Academico academico5 = crearAcademico("José María Merino", 2009);
 
         HashMap <Character, Academico> sillones = new HashMap<>();
-        sillones.put('a', academico1);
-        sillones.put('b', academico2);
-        sillones.put('c', academico3);
-        sillones.put('d', academico4);
-        sillones.put('f', academico5);
+        // me piden que inserte los datos con un método
+        // creo una variable de tipo boolean para ver si se ha insertado o no.
+        boolean insertado = nuevoAcadémico(sillones, academico1,  'a');
+        nuevoAcadémico(sillones, academico2,  'b');
+        nuevoAcadémico(sillones, academico3,  'C');
+        nuevoAcadémico(sillones, academico4,  'd');
+        nuevoAcadémico(sillones, academico5,  'F');
+        if (insertado){
+            System.out.println("Académico insertado con éxito.");
+        } else {
+            System.out.println("No se ha podido inserta el académico.");
+        }
+        //sillones.put('a', academico1);
+        //sillones.put('b', academico2);
+        //sillones.put('C', academico3);
+        //sillones.put('d', academico4);
+        //sillones.put('F', academico5);
 
-        System.out.println(sillones);
-
+        imprimirAcademico(academico2);
+        imprimirAcademia(sillones);
         Scanner teclado = new Scanner(System.in);
         System.out.println("Sillon: ");
         char sillon = teclado.next().charAt(0);
@@ -35,5 +41,36 @@ donde se lleva a cabo la inserción después de comprobar que el carácter pasad
 
 
 
+    }
+    // Vamos a hacer un método que me imprima los académicos con sus datos: letra, nombre y año
+
+    public static void imprimirAcademico(Academico a) {
+        System.out.println("Año\t\tNombre");
+        System.out.println(a.getAño() + "  " + a.getNombre());
+    }
+    // imprimir toda la academia, con el formato: letra - año - nombre
+    public static void imprimirAcademia(HashMap<Character, Academico> mapa) {
+        System.out.println("Letra\tAño\t\t\tNombre");
+        System.out.println("==============================================");
+        // recorremos el mapa con un foreach
+
+        for (Map.Entry<Character, Academico> entrada: mapa.entrySet()) {
+            System.out.println(entrada.getKey() + "\t\t" + entrada.getValue().getAño() + "\t\t" + entrada.getValue().getNombre());
+        }
+    }
+    static boolean nuevoAcadémico(Map<Character, Academico> academia, Academico nuevo, Character letra){
+        // tenemos que insertar el académico en el mapa comprobando antes si la letra lo es.
+        if (Character.isLetter(letra)){
+            // inserto el academico y devuelvo true
+            academia.put(letra, nuevo);
+            return true;
+        } else {
+            return false;
+        }
+    }
+    // vamos a crear los académicos con un método
+    public static Academico crearAcademico(String nombre, int año){
+        Academico academico = new Academico(nombre, año);
+        return academico;
     }
 }
