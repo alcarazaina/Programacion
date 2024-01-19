@@ -4,16 +4,16 @@ public class Usuario {
     private String username;
     private String email;
     private String password;
-    private enum estado {
-        pendiente,
-        activo,
-        bloqueado
-    }
+    private Estado estado;
 
     public Usuario(String username, String email, String password) {
         this.username = username;
         this.email = email;
         this.password = password;
+    }
+
+    public Estado getEstado() {
+        return estado;
     }
 
     public String getUsername() {
@@ -28,6 +28,9 @@ public class Usuario {
         return password;
     }
 
+    public void setEstado(Estado estado) {
+        this.estado = estado;
+    }
     public void setEmail(String email) {
         this.email = email;
     }
