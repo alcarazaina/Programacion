@@ -9,6 +9,12 @@ public class Main {
 
         Usuario usuario1 = crearUsuario();
         System.out.println(usuario1);
+
+        System.out.println(usuario1.getEstado());
+
+        usuario1.mensajeEstado();
+        usuario1.setEstado(Estado.ACTIVO);
+        usuario1.mensajeEstado();
     }
     public static Usuario crearUsuario(){
         Usuario usuario = new Usuario(teclado.nextLine(), teclado.nextLine(), teclado.nextLine());

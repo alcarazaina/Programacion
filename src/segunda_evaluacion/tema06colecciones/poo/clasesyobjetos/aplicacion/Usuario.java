@@ -10,6 +10,7 @@ public class Usuario {
         this.username = username;
         this.email = email;
         this.password = password;
+        this.estado = Estado.PENDIENTE;
     }
 
     public Estado getEstado() {
@@ -41,10 +42,23 @@ public class Usuario {
 
     @Override
     public String toString() {
-        return "Usuario{" +
-                "username='" + username + '\'' +
-                ", email='" + email + '\'' +
-                ", password='" + password + '\'' +
-                '}';
+        return "username: " + username + '\n' +
+                "email: " + email + '\n' +
+                "password: " + "*******";
     }
+
+    // aquí vienen los métodos de usuario, los que creo yo
+
+    public void mensajeEstado(){
+        if (estado.equals(Estado.PENDIENTE)){
+            System.out.println("Tienes que esperar un poco.");
+        } else if (estado.equals(Estado.ACTIVO)){
+            System.out.println("Todo ok, vía libre.");
+        } else if (estado.equals(Estado.BLOQUEADO)){
+            System.out.println("Usuario bloqueado. Algo habrás hecho");
+        }else{
+            System.out.println("Estado desconocido");
+        }
+    }
+
 }
