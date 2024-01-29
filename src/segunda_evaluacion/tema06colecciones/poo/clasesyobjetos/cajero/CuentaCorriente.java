@@ -16,6 +16,11 @@ public class CuentaCorriente {
         this.saldo = 0;
     }
 
+    public CuentaCorriente(String dni, double saldo){
+        this.dni = dni;
+        this.saldo = saldo;
+    }
+
     @Override
     public String toString() {
         return "CuentaCorriente{" +
