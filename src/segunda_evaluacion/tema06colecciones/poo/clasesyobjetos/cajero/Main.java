@@ -10,6 +10,7 @@ public class Main {
         cuenta1.sacarDinero();
         cuenta1.actualizarLibreta();
 
-
+        CuentaCorriente cuentaCorriente2 = new CuentaCorriente("222222222B", 50000);
+        System.out.println(cuentaCorriente2);
     }
 }
