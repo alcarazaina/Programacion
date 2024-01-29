@@ -8,23 +8,35 @@ public class CuentaCorriente {
     private String dni;
     private String nombre;
     private double saldo;
+    private String banco;
 
 
     public CuentaCorriente(String dni, String nombre) {
         this.dni = dni;
         this.nombre = nombre;
         this.saldo = 0;
+        this.banco = "Santander";
     }
 
     public CuentaCorriente(String dni, double saldo){
         this.dni = dni;
         this.saldo = saldo;
+        this.banco = "Santander";
     }
 
     public CuentaCorriente(String dni, String nombre, double saldo) {
         this.dni = dni;
         this.nombre = nombre;
         this.saldo = saldo;
+        this.banco = "Santander";
+    }
+
+    public String getBanco() {
+        return banco;
+    }
+
+    public void setBanco(String banco) {
+        this.banco = banco;
     }
 
     @Override
@@ -33,6 +45,7 @@ public class CuentaCorriente {
                 "dni='" + dni + '\'' +
                 ", nombre='" + nombre + '\'' +
                 ", saldo=" + saldo +
+                ", banco='" + banco + '\'' +
                 '}';
     }
 
