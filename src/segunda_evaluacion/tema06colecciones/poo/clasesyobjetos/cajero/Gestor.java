@@ -5,4 +5,8 @@ public class Gestor {
     private String nombre;
     private String telefono;
     private double cantidadMax;
+
+
+
+
 }

@@ -1,6 +1,5 @@
 package segunda_evaluacion.tema06colecciones.poo.clasesyobjetos.cajero;
 
-import java.math.BigDecimal;
 import java.util.Scanner;
 
 public class CuentaCorriente {
@@ -32,10 +31,12 @@ public class CuentaCorriente {
     }
 
     public String getBanco() {
+
         return banco;
     }
 
     public void setBanco(String banco) {
+
         this.banco = banco;
     }
 
