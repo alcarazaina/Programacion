@@ -23,6 +23,11 @@ public class Gestor {
         this.cantidadMax = cantidadMax;
     }
 
+
+    public String getTelefono() {
+        return telefono;
+    }
+
     @Override
     public String toString() {
         return "Gestor{" +

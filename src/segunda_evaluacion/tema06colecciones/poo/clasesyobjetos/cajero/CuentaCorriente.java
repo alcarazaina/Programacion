@@ -8,6 +8,7 @@ public class CuentaCorriente {
     private String nombre;
     private double saldo;
     private String banco;
+    private Gestor gestor;
 
 
     public CuentaCorriente(String dni, String nombre) {
@@ -40,6 +41,15 @@ public class CuentaCorriente {
         this.banco = banco;
     }
 
+
+    public Gestor getGestor() {
+        return gestor;
+    }
+
+    public void setGestor(Gestor gestor) {
+        this.gestor = gestor;
+    }
+
     @Override
     public String toString() {
         return "CuentaCorriente{" +
@@ -47,6 +57,7 @@ public class CuentaCorriente {
                 ", nombre='" + nombre + '\'' +
                 ", saldo=" + saldo +
                 ", banco='" + banco + '\'' +
+                ", gestor=" + gestor +
                 '}';
     }
 
