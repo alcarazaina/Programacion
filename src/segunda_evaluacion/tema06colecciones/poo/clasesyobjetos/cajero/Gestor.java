@@ -2,9 +2,9 @@ package segunda_evaluacion.tema06colecciones.poo.clasesyobjetos.cajero;
 
 public class Gestor {
 
-    private String nombre;
+    public String nombre;
     private String telefono;
-    private double cantidadMax;
+    double cantidadMax;
 
 
     public Gestor(String nombre, String telefono) {

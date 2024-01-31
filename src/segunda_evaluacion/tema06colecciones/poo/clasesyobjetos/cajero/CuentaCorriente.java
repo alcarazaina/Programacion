@@ -4,8 +4,8 @@ import java.util.Scanner;
 
 public class CuentaCorriente {
 
-    private String dni;
-    private String nombre;
+    String dni;
+    public String nombre;
     private double saldo;
     private String banco;
     private Gestor gestor;
