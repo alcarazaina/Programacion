@@ -10,5 +10,6 @@ public class Main {
         objeto1.otroAtributo = true;
         objeto1.nombre = "Pedro";
         objeto1.imprimirAtributo();
+
     }
 }
