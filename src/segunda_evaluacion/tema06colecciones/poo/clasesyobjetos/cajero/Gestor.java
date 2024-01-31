@@ -7,6 +7,19 @@ public class Gestor {
     private double cantidadMax;
 
 
+    public Gestor(String nombre, String telefono) {
+        this.nombre = nombre;
+        this.telefono = telefono;
+    }
 
 
+
+    @Override
+    public String toString() {
+        return "Gestor{" +
+                "nombre='" + nombre + '\'' +
+                ", telefono='" + telefono + '\'' +
+                ", cantidadMax=" + cantidadMax +
+                '}';
+    }
 }

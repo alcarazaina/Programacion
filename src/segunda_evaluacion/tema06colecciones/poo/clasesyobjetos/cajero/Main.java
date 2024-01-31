@@ -15,5 +15,9 @@ public class Main {
 
         CuentaCorriente cuentaCorriente3 = new CuentaCorriente("33333333C", "Petete", 10000);
         System.out.println(cuentaCorriente3);
+
+        System.out.println("******* GESTOR *******");
+        Gestor gestor1 = new Gestor("Pedro", "525256161");
+        System.out.println(gestor1);
     }
 }
