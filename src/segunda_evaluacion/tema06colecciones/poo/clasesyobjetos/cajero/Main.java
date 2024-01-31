@@ -19,5 +19,16 @@ public class Main {
         System.out.println("******* GESTOR *******");
         Gestor gestor1 = new Gestor("Pedro", "525256161");
         System.out.println(gestor1);
+
+
+        // Añadimos el gestor a la cuenta corriente
+
+        System.out.println("\n\nAñadimos el gestor a la primera cuenta corriente");
+
+        cuenta1.setGestor(gestor1);
+
+        System.out.println(cuenta1);
+        System.out.println(cuentaCorriente2);
+
     }
 }
