@@ -14,7 +14,14 @@ public class Gestor {
         this.cantidadMax = 10000;
     }
 
+    // Para asignar un importe máximo de entrada al crear un gestor tenemos que poner otro constructor que sí lo incluya.
 
+
+    public Gestor(String nombre, String telefono, double cantidadMax) {
+        this.nombre = nombre;
+        this.telefono = telefono;
+        this.cantidadMax = cantidadMax;
+    }
 
     @Override
     public String toString() {
