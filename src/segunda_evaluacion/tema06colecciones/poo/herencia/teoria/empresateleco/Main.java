@@ -11,7 +11,7 @@ public class Main {
         p.setNombre("A. Arenal");
         p.setAño(1985);
         p.setDireccion("Pobladura del Valle, 15");
-        p.setFechaInicio(LocalDate.now());
+        p.setFechaInicio(LocalDate.of(2012,11,16));
         p.setSalario(50_000L);
         p.setLenguajes(new String[] { "Java", "JavaScript", "PHP" });
 
