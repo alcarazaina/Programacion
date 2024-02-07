@@ -7,6 +7,7 @@ import java.util.Date;
 public class Main {
     public static void main(String[] args) {
         Programador p = new Programador();
+        System.out.println(p);
 
         p.setNombre("A. Arenal");
         p.setAño(1985);
@@ -15,6 +16,7 @@ public class Main {
         p.setSalario(50000);
         p.setLenguajes(new String[] { "Java", "JavaScript", "PHP" });
 
+        System.out.println(p);
         System.out.println(p.getNombre()); // A. Arenal
         System.out.println(p.getSalario()); // 50000
         System.out.println(Arrays.toString(p.getLenguajes())); // [Java, JavaScript, PHP]
