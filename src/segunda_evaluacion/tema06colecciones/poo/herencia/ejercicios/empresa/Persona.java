@@ -26,7 +26,8 @@ public class Persona {
         this.edad = edad;
     }
 
-    public void mostrar(String nombre, int edad){
+    public void mostrar(){
+        System.out.println("DATOS DE PERSONA: ");
         System.out.println(nombre + " " + edad);
     }
 }

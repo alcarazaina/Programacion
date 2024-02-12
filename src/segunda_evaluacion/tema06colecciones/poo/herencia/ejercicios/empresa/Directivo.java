@@ -15,7 +15,7 @@ public class Directivo extends Empleado{
     public void setCategoria(Categoria categoria) {
         this.categoria = categoria;
     }
-    public void mostrar(String nombre, int edad, double sueldoBruto, Categoria categoria){
+    public void mostrar(){
         System.out.println(nombre + " " + edad + " " + sueldoBruto + " " + categoria);
     }
 }

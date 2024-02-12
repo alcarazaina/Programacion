@@ -5,7 +5,24 @@ public class Cliente extends Persona{
 
     public Cliente(String nombre, int edad, String telefonoDeContacto) {
         super(nombre, edad);
-        this.telefonoDeContacto = telefonoDeContacto;
+        int cifras = 0;
+        if (telefonoDeContacto.length() == 9 ) {
+            for (int i = 0; i < telefonoDeContacto.length(); i++) {
+                if (Character.isDigit(telefonoDeContacto.charAt(i))) {
+                   cifras++;
+                }
+            }
+        }
+        if (cifras == 9){
+            this.telefonoDeContacto = telefonoDeContacto;
+        } else {
+            this.telefonoDeContacto = "Desconocido";
+        }
+    }
+
+    public Cliente(String nombre, int edad) {
+        super(nombre, edad);
+        this.telefonoDeContacto = "Desconocido";
     }
 
     public String getTelefonoDeContacto() {
@@ -15,7 +32,9 @@ public class Cliente extends Persona{
     public void setTelefonoDeContacto(String telefonoDeContacto) {
         this.telefonoDeContacto = telefonoDeContacto;
     }
-    public void mostrar(String nombre, int edad, String telefonoDeContacto){
+
+    @Override
+    public void mostrar(){
         System.out.println(nombre + " " + edad + " " + telefonoDeContacto);
     }
 }
