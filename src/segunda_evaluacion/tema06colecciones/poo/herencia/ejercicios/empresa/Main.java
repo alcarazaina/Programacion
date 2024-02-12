@@ -9,5 +9,10 @@ public class Main {
 
         Empleado empleado1 = new Empleado("María", 26, 129844);
         empleado1.mostrar();
+
+        Cliente cliente1 = new Cliente("Pedro", 58, "698542551");
+        cliente1.mostrar();
+        Cliente cliente2 = new Cliente("Laura", 39, "69f842559");
+        cliente2.mostrar();
     }
 }
