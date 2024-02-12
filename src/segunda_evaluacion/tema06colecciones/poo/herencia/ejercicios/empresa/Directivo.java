@@ -1,7 +1,7 @@
 package segunda_evaluacion.tema06colecciones.poo.herencia.ejercicios.empresa;
 
 public class Directivo extends Empleado{
-    protected Categoria categoria;
+    private Categoria categoria;
 
     public Directivo(String nombre, int edad, double sueldoBruto, Categoria categoria) {
         super(nombre, edad, sueldoBruto);
