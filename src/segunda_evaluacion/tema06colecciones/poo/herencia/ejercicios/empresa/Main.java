@@ -14,5 +14,7 @@ public class Main {
         cliente1.mostrar();
         Cliente cliente2 = new Cliente("Laura", 39, "69f842559");
         cliente2.mostrar();
+        Cliente cliente3 = new Cliente("Sara", 45);
+        cliente3.mostrar();
     }
 }
