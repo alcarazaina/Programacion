@@ -37,11 +37,16 @@ public class Empresa {
         this.clientes = clientes;
     }
 
-    public String mostrar() {
+    @Override
+    public String toString() {
         return "Empresa{" +
                 "nombre='" + nombre + '\'' +
                 ", empleados=" + empleados +
                 ", clientes=" + clientes +
                 '}';
+    }
+
+    public void mostrar() {
+        System.out.println(toString());
     }
 }

@@ -1,5 +1,7 @@
 package segunda_evaluacion.tema06colecciones.poo.herencia.ejercicios.empresa;
 
+import java.util.ArrayList;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -23,5 +25,14 @@ public class Main {
         System.out.println("Directivo con plus: ");
         directivo1.asignarPlus();
         directivo1.mostrar();
+
+        ArrayList<Empleado> empleados = new ArrayList<>();
+        empleados.add(empleado1);
+        ArrayList<Cliente> clientes = new ArrayList<>();
+        clientes.add(cliente1);
+        clientes.add(cliente2);
+        clientes.add(cliente3);
+        Empresa empresa1 = new Empresa("Frnandy",empleados, clientes);
+        empresa1.mostrar();
     }
 }

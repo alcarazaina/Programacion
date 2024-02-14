@@ -25,6 +25,15 @@ public class Empleado extends Persona{
         System.out.println("Salario neto: " + calcularSalarioNeto() + "€");
     }
 
+    @Override
+    public String toString() {
+        return "Empleado{" +
+                "sueldoBruto=" + sueldoBruto +
+                ", nombre='" + nombre + '\'' +
+                ", edad=" + edad +
+                '}';
+    }
+
     public double calcularSalarioNeto(){
         return sueldoBruto - (sueldoBruto * 0.15);
     }
