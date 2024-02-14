@@ -35,6 +35,7 @@ public class Cliente extends Persona{
 
     @Override
     public void mostrar(){
+        System.out.println("DATOS DE CLIENTE: ");
         System.out.println(nombre + " " + edad + " " + telefonoDeContacto);
     }
 }

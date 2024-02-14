@@ -16,5 +16,12 @@ public class Main {
         cliente2.mostrar();
         Cliente cliente3 = new Cliente("Sara", 45);
         cliente3.mostrar();
+
+        Directivo directivo1 = new Directivo("Manuel", 48, 6984588.90, Categoria.CEO);
+        System.out.println("Directivo sin plus: ");
+        directivo1.mostrar();
+        System.out.println("Directivo con plus: ");
+        directivo1.asignarPlus();
+        directivo1.mostrar();
     }
 }
