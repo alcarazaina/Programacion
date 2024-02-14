@@ -21,6 +21,10 @@ public class Main {
         System.out.println(p.getSalario()); // 50000
         System.out.println(Arrays.toString(p.getLenguajes())); // [Java, JavaScript, PHP]
 
+        // probamos el método añadir lenguaje de programador
+        p.añadirLenguaje("Python");
+        System.out.println(p);
+
 
     }
 }

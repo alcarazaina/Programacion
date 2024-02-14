@@ -34,4 +34,17 @@ public class Programador extends Empleado{
                 ", direccion='" + direccion + '\'' +
                 '}';
     }
+
+    public void añadirLenguaje(String lenguaje){
+        // como este método tiene que ser llamado por un programador ya creado que tendrá un array con un cierto tamaño que no se puede ampliar porque es un array
+        String[] lenguajesMasUno = new String[lenguajes.length + 1];
+        //Añadimos los lenguajes que ya teníamos
+        for (int i = 0; i < lenguajes.length; i++) {
+            lenguajesMasUno[i] = lenguajes[i];
+        }
+        // en la última posición añadimos el nuevo lenguaje
+        lenguajesMasUno[lenguajesMasUno.length - 1] = lenguaje;
+        // y asignamos al atributo lenguajes
+        this.lenguajes = lenguajesMasUno;
+    }
 }
