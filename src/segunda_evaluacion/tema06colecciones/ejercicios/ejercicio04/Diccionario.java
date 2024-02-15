@@ -30,7 +30,7 @@ public class Diccionario {
         int indice = generador.nextInt(0, tamaño);
         // ahora necesito meter las claves en un array o arraylist
         String palEsp = (String) diccionario.keySet().toArray()[indice];
-        System.out.println(palEsp);
+        System.out.print(palEsp + ": ");
         return palEsp;
     }
 
