@@ -9,15 +9,11 @@ public class Fichero {
         this.nombreCompleto = nombreCompleto;
     }
 
-    // getters y setters
-
+    protected String getInfoFichero() {
+        return "Fichero: " + nombreCompleto;
+    }
     public void imprimeInfoFichero() {
         String info = this.getInfoFichero(); // comportamiento polimórfico
         System.out.println(info);
     }
-
-    protected String getInfoFichero() {
-        return "Fichero: " + nombreCompleto;
-    }
-
 }
