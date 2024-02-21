@@ -17,7 +17,8 @@ public class Imagen extends Fichero{
 
     @Override
     protected String getInfoFichero() {
-        return String.format("Imagen: %s, width: %d, height: %d", nombreCompleto, width, height);
+      //  return String.format("Imagen: %s, width: %d, height: %d", nombreCompleto, width, height);
+        return "Imagen: " + nombreCompleto + ", wdth: " + width + ", height: " + height;
     }
 
 }
