@@ -8,7 +8,7 @@ public class Gato extends Mascota{
     }
 
     @Override
-    public void dice() {
-
+    public void dice() { // dice() es obligatorio sobreescribirlo porque es un método abstracto
+        System.out.println("¡Miau!");
     }
 }
