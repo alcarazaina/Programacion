@@ -58,7 +58,7 @@ public class Colleciones {
     }
     public static void imprimirMapa() {
         HashMap<String, Editorial> premiadas = obtenerEditorialesPremiadas();
-        //System.out.println("Feote: " + premiadas);
+        System.out.println("Feote: " + premiadas);
         premiadas.entrySet().stream().sorted();
         System.out.println("Editoriales premiadas:  ");
         for (HashMap.Entry<String, Editorial> lineaMapa: premiadas.entrySet()) {
