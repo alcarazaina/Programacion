@@ -1,0 +1,13 @@
+
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¤ì¾¨8°©â…Ö1
+`
+java:S1854"CRemove this useless assignment to local variable "objetoProtegido".(œÌË8°©â…Ö1
+X
+java:S1854"<Remove this useless assignment to local variable "objetoPP".(³û—y8°©â…Ö1
+G	java:S106
+"+Replace this use of System.out by a logger.(á¤ñæ8°©â…Ö1
+I
+java:S1481"-Remove this unused "objetoPP" local variable.(³û—y8°©â…Ö1
+Q
+java:S1481"4Remove this unused "objetoProtegido" local variable.(œÌË8°©â…Ö1
+]	java:S125"<This block of commented-out lines of code should be removed.(·È™±ûÿÿÿÿ8°©â…Ö1

@@ -1,0 +1,25 @@
+
+
+java:S1488"_Immediately return this expression instead of assigning it to the temporary variable "persona".(ñğœ‡ÿÿÿÿÿ8áéÑÍá1
+
+java:S1488*"]Immediately return this expression instead of assigning it to the temporary variable "saldo".(š†…’ùÿÿÿÿ8áéÑÍá1
+c
+java:S1854"ARemove this useless assignment to local variable "cuentaAhorro1".(¢ˆÖÿÿÿÿÿ8ğéÑÍá1
+g
+java:S1854"KRemove this useless assignment to local variable "cuentaCorrientePersonal".(şË+8ğéÑÍá1
+l
+java:S1854"JRemove this useless assignment to local variable "cuentaCorrienteEmpresa".(Æ–Æ˜ûÿÿÿÿ8ğéÑÍá1
+G	java:S106	"+Replace this use of System.out by a logger.(‰µØ8ğéÑÍá1
+T
+java:S1481"2Remove this unused "cuentaAhorro1" local variable.(¢ˆÖÿÿÿÿÿ8ğéÑÍá1
+X
+java:S1481"<Remove this unused "cuentaCorrientePersonal" local variable.(şË+8ğéÑÍá1
+]
+java:S1481";Remove this unused "cuentaCorrienteEmpresa" local variable.(Æ–Æ˜ûÿÿÿÿ8ğéÑÍá1
+G	java:S106"+Replace this use of System.out by a logger.(Ã–İ¬8ğéÑÍá1
+L	java:S106"+Replace this use of System.out by a logger.(ÃÖÀ¢úÿÿÿÿ8ğéÑÍá1
+G	java:S106$"+Replace this use of System.out by a logger.(¯¥‹¾8ğéÑÍá1
+L	java:S106)"+Replace this use of System.out by a logger.(÷”Õüÿÿÿÿ8ğéÑÍá1
+G	java:S106/"+Replace this use of System.out by a logger.(…¡¼Å8ğéÑÍá1
+O
+java:S6126/"2Replace this String concatenation with Text block.(…¡¼Å8ğéÑÍá1

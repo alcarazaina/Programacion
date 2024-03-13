@@ -1,0 +1,6 @@
+
+G	java:S106 "+Replace this use of System.out by a logger.(²´Ò8ã‚œìÚ1
+G	java:S106!"+Replace this use of System.out by a logger.(¬¯êË8ã‚œìÚ1
+G	java:S106$"+Replace this use of System.out by a logger.(¶î ‘8ı¢ìÚ1
+>
+java:S1116%"Remove this empty statement.(ôŸìúÿÿÿÿ8ã‚œìÚ1

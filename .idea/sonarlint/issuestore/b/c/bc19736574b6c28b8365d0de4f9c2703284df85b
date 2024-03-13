@@ -1,0 +1,15 @@
+
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(èö–®8¦ñ¬ëÚ1
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ä„·í8¦ñ¬ëÚ1
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆ¾½Ã8§ñ¬ëÚ1
+r	java:S117%"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÂÒƒíùÿÿÿÿ8§ñ¬ëÚ1
+<
+java:S1700	"Rename field "diccionario"(Í­âÿÿÿÿÿ8§ñ¬ëÚ1
+C
+java:S2201"'The return value of "get" must be used.(€Ïþ8²ñ¬ëÚ1
+X	java:S125"<This block of commented-out lines of code should be removed.(÷ùä8³ñ¬ëÚ1
+;
+java:S2119"Save and re-use this "Random".(éÕáÕ8µñ¬ëÚ1
+G	java:S106!"+Replace this use of System.out by a logger.(Ð­é8Áñ¬ëÚ1
+O
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8—‰­ëÚ1

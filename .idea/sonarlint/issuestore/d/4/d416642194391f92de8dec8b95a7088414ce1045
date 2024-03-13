@@ -1,0 +1,19 @@
+
+|
+java:S1319"fThe type of "coleccion" should be an interface such as "Set" rather than the implementation "HashSet".(Œš‰
+ˆ
+java:S1319"mThe return type of this method should be an interface such as "Set" rather than the implementation "HashSet".(ûáğèøÿÿÿÿ
+|
+java:S1319,"fThe type of "coleccion" should be an interface such as "Set" rather than the implementation "HashSet".(á»æ‘
+ƒ
+java:S13194"mThe return type of this method should be an interface such as "Set" rather than the implementation "HashSet".(ÏäìĞ
+|
+java:S13194"fThe type of "coleccion" should be an interface such as "Set" rather than the implementation "HashSet".(ÏäìĞ
+X
+java:S1854"=Remove this useless assignment to local variable "coleccion".(äìñÇÿÿÿÿÿ
+@	java:S106"+Replace this use of System.out by a logger.(Æ¼Ø°
+E	java:S106"+Replace this use of System.out by a logger.(Ñúª ıÿÿÿÿ
+?	java:S106$"+Replace this use of System.out by a logger.(ŞÊX
+@	java:S106&"+Replace this use of System.out by a logger.(´¥Ò¶
+E	java:S106/"+Replace this use of System.out by a logger.(’‘ùÓüÿÿÿÿ
+E	java:S1062"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ

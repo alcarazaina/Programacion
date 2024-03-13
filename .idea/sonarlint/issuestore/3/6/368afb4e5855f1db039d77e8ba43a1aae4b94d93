@@ -1,0 +1,49 @@
+
+
+java:S1319W"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(àÙÃ8Ë°¤ÈÏ1
+„
+java:S1319W"gThe type of "numeros" should be an interface such as "List" rather than the implementation "ArrayList".(àÙÃ8Ì°¤ÈÏ1
+’
+java:S1319c"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(˜Ì’ üÿÿÿÿ8Ì°¤ÈÏ1
+„
+java:S1319g"gThe type of "numeros" should be an interface such as "List" rather than the implementation "ArrayList".(£÷ÏÊ8Ì°¤ÈÏ1
+‰
+java:S1319j"gThe type of "numeros" should be an interface such as "List" rather than the implementation "ArrayList".(ü¢ƒ¡ıÿÿÿÿ8Ì°¤ÈÏ1
+„
+java:S1319n"gThe type of "numeros" should be an interface such as "List" rather than the implementation "ArrayList".(ÔíñÉ8Ì°¤ÈÏ1
+‰
+java:S1319t"gThe type of "numeros" should be an interface such as "List" rather than the implementation "ArrayList".(¦Š£±üÿÿÿÿ8Ì°¤ÈÏ1
+‰
+java:S1319|"gThe type of "numeros" should be an interface such as "List" rather than the implementation "ArrayList".(¡ñ†óıÿÿÿÿ8Ì°¤ÈÏ1
+Š
+java:S1319€"gThe type of "numeros" should be an interface such as "List" rather than the implementation "ArrayList".(­êâæşÿÿÿÿ8Ì°¤ÈÏ1
+…
+java:S1319‹"gThe type of "numeros" should be an interface such as "List" rather than the implementation "ArrayList".(™ıİÍ8Ì°¤ÈÏ1
+
+java:S1488d"_Immediately return this expression instead of assigning it to the temporary variable "numeros".(üò²•ıÿÿÿÿ8Ì°¤ÈÏ1
+]	java:S125"<This block of commented-out lines of code should be removed.(Š‰’±úÿÿÿÿ8²´¤ÈÏ1
+H
+java:S1481"+Remove this unused "indice" local variable.(¡ÛòÕ8²´¤ÈÏ1
+H
+java:S1481"+Remove this unused "numero" local variable.(øÇ8ÎÊ¤ÈÏ1
+G	java:S106"+Replace this use of System.out by a logger.(Çş8²´¤ÈÏ1
+L	java:S106"+Replace this use of System.out by a logger.(Öñ›½ûÿÿÿÿ8²´¤ÈÏ1
+L	java:S106"+Replace this use of System.out by a logger.(¹–¶ûşÿÿÿÿ8²´¤ÈÏ1
+L	java:S106 "+Replace this use of System.out by a logger.(®£Ä¢üÿÿÿÿ8²´¤ÈÏ1
+L	java:S106!"+Replace this use of System.out by a logger.(›¼÷Ìøÿÿÿÿ8²´¤ÈÏ1
+G	java:S106""+Replace this use of System.out by a logger.(ÙŞ¡›8²´¤ÈÏ1
+L	java:S106#"+Replace this use of System.out by a logger.(›æèİüÿÿÿÿ8²´¤ÈÏ1
+G	java:S106$"+Replace this use of System.out by a logger.(”ˆĞà8²´¤ÈÏ1
+G	java:S106%"+Replace this use of System.out by a logger.(â·œ8²´¤ÈÏ1
+G	java:S106&"+Replace this use of System.out by a logger.(±„òá8²´¤ÈÏ1
+L	java:S106("+Replace this use of System.out by a logger.(Ó©ô‚ûÿÿÿÿ8²´¤ÈÏ1
+G	java:S106Q"+Replace this use of System.out by a logger.(Ü÷¾Ò8²´¤ÈÏ1
+j	java:S100W"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(àÙÃ8²´¤ÈÏ1
+G	java:S106_"+Replace this use of System.out by a logger.(Æ¼Ø°8Ò´¤ÈÏ1
+G	java:S106h"+Replace this use of System.out by a logger.(Èú£Ì8Ü´¤ÈÏ1
+G	java:S106k"+Replace this use of System.out by a logger.(ÜÖ•©8Ü´¤ÈÏ1
+o	java:S100t"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦Š£±üÿÿÿÿ8Ü´¤ÈÏ1
+o	java:S100|"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡ñ†óıÿÿÿÿ8Ü´¤ÈÏ1
+G	java:S106~"+Replace this use of System.out by a logger.(Éµ­à8ì´¤ÈÏ1
+M	java:S106‰"+Replace this use of System.out by a logger.(ÊüŸçüÿÿÿÿ8ì´¤ÈÏ1
+M	java:S106”"+Replace this use of System.out by a logger.(‚ÉÉÔúÿÿÿÿ8ì´¤ÈÏ1

@@ -1,0 +1,23 @@
+
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼–…Ëşÿÿÿÿ8ÁÖû²Ş1
+m	java:S117
+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(šƒÈ¸8ÁÖû²Ş1
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ĞÊ¼ùşÿÿÿÿ8ÁÖû²Ş1
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨¬äƒıÿÿÿÿ8ÁÖû²Ş1
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·ğÇñ8ÁÖû²Ş1
+l	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†¦À&8ÁÖû²Ş1
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ùÆ¼¹øÿÿÿÿ8ÁÖû²Ş1
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ö½¦8ÁÖû²Ş1
+m	java:S117""QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ØØÛ™8ÁÖû²Ş1
+L	java:S106	"+Replace this use of System.out by a logger.(ó“‰ÿÿÿÿÿ8ÑÖû²Ş1
+G	java:S106"+Replace this use of System.out by a logger.( éÿÔ8ÑÖû²Ş1
+L	java:S106"+Replace this use of System.out by a logger.(›³øÖúÿÿÿÿ8ÑÖû²Ş1
+G	java:S106"+Replace this use of System.out by a logger.(á¤™ù8ÑÖû²Ş1
+G	java:S106"+Replace this use of System.out by a logger.(Ê¼§ô8ÑÖû²Ş1
+G	java:S106"+Replace this use of System.out by a logger.(ºëí­8ÑÖû²Ş1
+G	java:S106"+Replace this use of System.out by a logger.(Çæ¼¹8ÑÖû²Ş1
+L	java:S106"+Replace this use of System.out by a logger.(¦©öıÿÿÿÿÿ8ÑÖû²Ş1
+G	java:S106#"+Replace this use of System.out by a logger.(ñŠóé8ÑÖû²Ş1
+L	java:S1060"+Replace this use of System.out by a logger.(şøË°üÿÿÿÿ8¥¤ü²Ş1
+Q
+java:S1128"5Remove this unused import 'javax.sound.sampled.Line'.(·öë/8¥¤ü²Ş1

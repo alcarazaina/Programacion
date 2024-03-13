@@ -1,0 +1,11 @@
+
+f
+java:S1192"JDefine a constant instead of duplicating this literal "Santander" 3 times.(ισÒq8ÿΈ΅±Υ1
+t
+java:S1104"RMake nombre a static final constant or non-public and provide accessors if needed.(―‰–‚ϊÿÿÿÿ8…¦ό…Φ1
+L	java:S106B"+Replace this use of System.out by a logger.(θΫ¦¦ωÿÿÿÿ8μβ£±Υ1
+L	java:S106F"+Replace this use of System.out by a logger.(ε”ΚΆώÿÿÿÿ8μβ£±Υ1
+L	java:S106H"+Replace this use of System.out by a logger.(΅έ°µόÿÿÿÿ8μβ£±Υ1
+L	java:S106N"+Replace this use of System.out by a logger.(»ΥΉώÿÿÿÿ8όβ£±Υ1
+L	java:S106Q"+Replace this use of System.out by a logger.(Ϊ¶λ‰ϊÿÿÿÿ8όβ£±Υ1
+G	java:S106V"+Replace this use of System.out by a logger.(®ÿΰέ8όβ£±Υ1

@@ -1,0 +1,38 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(£Ø¶˜
+h
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(Çµí‘
+V
+java:S1854
+";Remove this useless assignment to local variable "alumno2".(è¶¶†øÿÿÿÿ
+Q
+java:S1854	";Remove this useless assignment to local variable "alumno1".(ÙßÇ¦
+P
+java:S1854>":Remove this useless assignment to local variable "array2".(‚®œû
+U
+java:S1854=":Remove this useless assignment to local variable "array1".(”ˆ…¢üÿÿÿÿ
+B
+java:S1481	",Remove this unused "alumno1" local variable.(ÙßÇ¦
+G
+java:S1481
+",Remove this unused "alumno2" local variable.(è¶¶†øÿÿÿÿ
+@	java:S106"+Replace this use of System.out by a logger.(åÓŸ
+E	java:S106"+Replace this use of System.out by a logger.(ºĞ¹¸üÿÿÿÿ
+@	java:S106"+Replace this use of System.out by a logger.(¦ğå‡
+E	java:S106"+Replace this use of System.out by a logger.(İŞ–°ùÿÿÿÿ
+@	java:S106"+Replace this use of System.out by a logger.( •¡
+@	java:S106"+Replace this use of System.out by a logger.(åÓŸ
+P	java:S125 "<This block of commented-out lines of code should be removed.(‡ñˆN
+Q	java:S125#"<This block of commented-out lines of code should be removed.(¬ŸÎÔ
+E	java:S106+"+Replace this use of System.out by a logger.(âõøÿÿÿÿ
+E	java:S106."+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ
+E	java:S1060"+Replace this use of System.out by a logger.(Å¿ÅÓşÿÿÿÿ
+E	java:S1063"+Replace this use of System.out by a logger.(Äí¾‘ùÿÿÿÿ
+E	java:S106<"+Replace this use of System.out by a logger.(ƒìîüıÿÿÿÿ
+F
+java:S1481="+Remove this unused "array1" local variable.(”ˆ…¢üÿÿÿÿ
+A
+java:S1481>"+Remove this unused "array2" local variable.(‚®œû
+@	java:S106J"+Replace this use of System.out by a logger.(‘É¬Ç
+?	java:S106T"+Replace this use of System.out by a logger.(ÙÂ¢
+E	java:S106V"+Replace this use of System.out by a logger.(¾ˆ­‚üÿÿÿÿ

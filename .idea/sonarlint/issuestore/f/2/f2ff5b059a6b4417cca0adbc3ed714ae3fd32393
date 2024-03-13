@@ -1,0 +1,8 @@
+
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•Üä8ÀĞñĞ×1
+r	java:S117$"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­æ–Åøÿÿÿÿ8áÚ”¥Ø1
+p	java:S116"ORename this field "aÃ±o" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(áÎ…ıÿÿÿÿ8üÀÂĞ×1
+o	java:S100 "NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›ğíØúÿÿÿÿ8ĞĞñĞ×1
+o	java:S100$"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­æ–Åøÿÿÿÿ8ĞĞñĞ×1
+R
+java:S1128"0Remove this unused import 'java.time.LocalDate'.(›‘¬èıÿÿÿÿ8üÀÂĞ×1

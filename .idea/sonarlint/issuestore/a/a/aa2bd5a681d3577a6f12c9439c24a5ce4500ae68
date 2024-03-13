@@ -1,0 +1,18 @@
+
+
+java:S1319	"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(÷ì8 ì±ªá1
+ˆ
+java:S1319"kThe type of "editoriales" should be an interface such as "List" rather than the implementation "ArrayList".(â»Ù‘8 ì±ªá1
+
+java:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(‘úò¶8 ì±ªá1
+
+java:S13193"mThe return type of this method should be an interface such as "Map" rather than the implementation "HashMap".(­·ıúúÿÿÿÿ8 ì±ªá1
+T
+java:S3958>"2Refactor the code so this stream pipeline is used.(â‘Íşÿÿÿÿ8¯ì±ªá1
+\
+java:S1118":Add a private constructor to hide the implicit public one.(Ïæ•êùÿÿÿÿ8¯ì±ªá1
+G	java:S106="+Replace this use of System.out by a logger.(‚š±È8¿ì±ªá1
+L	java:S106?"+Replace this use of System.out by a logger.(»®Âüÿÿÿÿ8¿ì±ªá1
+U
+java:S3252@"3Use static access with "java.util.Map" for "Entry".(äîŒ­ûÿÿÿÿ8¿ì±ªá1
+L	java:S106A"+Replace this use of System.out by a logger.(™ñ ¥ûÿÿÿÿ8‘²ªá1

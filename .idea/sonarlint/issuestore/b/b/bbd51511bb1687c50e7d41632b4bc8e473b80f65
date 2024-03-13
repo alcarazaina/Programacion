@@ -1,0 +1,48 @@
+
+X
+java:S1854";Remove this useless assignment to local variable "medico1".(¹Ãì—8òìõ©Ö1
+Y
+java:S1854"<Remove this useless assignment to local variable "general1".(©ğü8òìõ©Ö1
+[
+java:S1854">Remove this useless assignment to local variable "caballero3".(Úµÿë8ÅÕó©Ö1
+[
+java:S1854">Remove this useless assignment to local variable "caballero2".(ÃÎ8ÅÕó©Ö1
+`
+java:S1854">Remove this useless assignment to local variable "caballero1".(›âöÉıÿÿÿÿ8€èò©Ö1
+]
+java:S1854
+";Remove this useless assignment to local variable "unidad5".(²Ğ €ıÿÿÿÿ8‘Úí©Ö1
+]
+java:S1854	";Remove this useless assignment to local variable "unidad4".(æ•÷ùÿÿÿÿ8Æ³î©Ö1
+]
+java:S1854";Remove this useless assignment to local variable "unidad3".(Ö–ØÙıÿÿÿÿ8÷Éï©Ö1
+]
+java:S1854";Remove this useless assignment to local variable "unidad2".(¿­Ôøıÿÿÿÿ8÷Éï©Ö1
+]
+java:S1854";Remove this useless assignment to local variable "unidad1".(…ÆøĞüÿÿÿÿ8Æ³î©Ö1
+N
+java:S1481",Remove this unused "unidad1" local variable.(…ÆøĞüÿÿÿÿ8‘Úí©Ö1
+N
+java:S1481",Remove this unused "unidad2" local variable.(¿­Ôøıÿÿÿÿ8÷Éï©Ö1
+N
+java:S1481",Remove this unused "unidad3" local variable.(Ö–ØÙıÿÿÿÿ8÷Éï©Ö1
+N
+java:S1481	",Remove this unused "unidad4" local variable.(æ•÷ùÿÿÿÿ8÷Éï©Ö1
+N
+java:S1481
+",Remove this unused "unidad5" local variable.(²Ğ €ıÿÿÿÿ8÷Éï©Ö1
+Q
+java:S1481"/Remove this unused "caballero1" local variable.(›âöÉıÿÿÿÿ8¸­ò©Ö1
+L
+java:S1481"/Remove this unused "caballero2" local variable.(ÃÎ8ÅÕó©Ö1
+L
+java:S1481"/Remove this unused "caballero3" local variable.(Úµÿë8ÅÕó©Ö1
+J
+java:S1481"-Remove this unused "general1" local variable.(©ğü8‘íõ©Ö1
+I
+java:S1481",Remove this unused "medico1" local variable.(¹Ãì—8‘íõ©Ö1
+L	java:S106"+Replace this use of System.out by a logger.(€Ò¼ùùÿÿÿÿ8®Œ‡ªÖ1
+G	java:S106"+Replace this use of System.out by a logger.(€¾­ß8ûöˆªÖ1
+L	java:S106"+Replace this use of System.out by a logger.(¡Æåñùÿÿÿÿ8Íù‹ªÖ1
+L	java:S106"+Replace this use of System.out by a logger.(Ã«“†øÿÿÿÿ8™ªÖ1
+L	java:S106 "+Replace this use of System.out by a logger.(±˜ì—úÿÿÿÿ8í´ªÖ1

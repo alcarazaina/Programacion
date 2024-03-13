@@ -1,0 +1,5 @@
+
+m	java:S117	"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(à–ÊÆ8®›§Ìá1
+p	java:S116"ORename this field "IBAN" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•“¹ïøÿÿÿÿ8š¬‹Ìá1
+V
+java:S5993	"9Change the visibility of this constructor to "protected".(à–ÊÆ8®›§Ìá1

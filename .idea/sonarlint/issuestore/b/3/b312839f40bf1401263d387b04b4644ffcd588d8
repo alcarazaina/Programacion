@@ -1,0 +1,17 @@
+
+~
+java:S13194"aThe type of "mapa" should be an interface such as "Map" rather than the implementation "HashMap".(Ò´íÉ8•¬ÆÄÑ1
+m	java:S117H"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÚÿŞ8•¬ÆÄÑ1
+ƒ
+java:S1488I"aImmediately return this expression instead of assigning it to the temporary variable "academico".(­´Êşÿÿÿÿ8ÉİÇÄÑ1
+L	java:S106"+Replace this use of System.out by a logger.(§¾òûÿÿÿÿ8Ğ¬ÆÄÑ1
+L	java:S106"+Replace this use of System.out by a logger.(·şÍÏüÿÿÿÿ8Ğ¬ÆÄÑ1
+W	java:S125"<This block of commented-out lines of code should be removed.(¦…°f8Ñ¬ÆÄÑ1
+L	java:S106&"+Replace this use of System.out by a logger.(†¨¤‘şÿÿÿÿ8Ô¬ÆÄÑ1
+L	java:S106("+Replace this use of System.out by a logger.(»÷“Ñıÿÿÿÿ8Õ¬ÆÄÑ1
+L	java:S1060"+Replace this use of System.out by a logger.(«ß£ùÿÿÿÿ8Ö¬ÆÄÑ1
+F	java:S1061"+Replace this use of System.out by a logger.(Ë¾…8Ö¬ÆÄÑ1
+L	java:S1065"+Replace this use of System.out by a logger.(¦åÚİşÿÿÿÿ8×¬ÆÄÑ1
+G	java:S1066"+Replace this use of System.out by a logger.(„ø8×¬ÆÄÑ1
+G	java:S106:"+Replace this use of System.out by a logger.(µĞÛè8Ø¬ÆÄÑ1
+o	java:S100="NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°ÆÔÁüÿÿÿÿ8Ù¬ÆÄÑ1

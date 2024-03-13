@@ -1,0 +1,11 @@
+
+y
+java:S14883"^Immediately return this expression instead of assigning it to the temporary variable "opcion".(Ï‚õıÿÿÿÿ
+@	java:S106"+Replace this use of System.out by a logger.(ì–¤‘
+?	java:S106."+Replace this use of System.out by a logger.(¥˜
+?	java:S106/"+Replace this use of System.out by a logger.(ÏÄ­,
+E	java:S1060"+Replace this use of System.out by a logger.(‚±Ë±ıÿÿÿÿ
+E	java:S1061"+Replace this use of System.out by a logger.(×Éşÿÿÿÿ
+E	java:S1062"+Replace this use of System.out by a logger.(İÁÂòşÿÿÿÿ
+@	java:S106K"+Replace this use of System.out by a logger.(½£„™
+@	java:S106P"+Replace this use of System.out by a logger.(î¾Çá

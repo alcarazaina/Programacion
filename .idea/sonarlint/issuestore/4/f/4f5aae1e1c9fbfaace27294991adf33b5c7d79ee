@@ -1,0 +1,9 @@
+
+
+java:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ºµëÀ8ÈöÃ²Ş1
+w	java:S116"VRename this field "DIMENSIONES" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹ÅÃ‚üÿÿÿÿ8ÈöÃ²Ş1
+C
+java:S1170"!Make this final field static too.(¹ÅÃ‚üÿÿÿÿ8ÈöÃ²Ş1
+V
+java:S5993
+"9Change the visibility of this constructor to "protected".(µÖ€8ÈöÃ²Ş1

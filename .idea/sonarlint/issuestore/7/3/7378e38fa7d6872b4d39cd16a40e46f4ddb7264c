@@ -1,0 +1,16 @@
+
+†
+java:S1319
+"iThe type of "empleados" should be an interface such as "List" rather than the implementation "ArrayList".(è§Ë¹8§‹‘ÆÚ1
+…
+java:S1319
+"hThe type of "clientes" should be an interface such as "List" rather than the implementation "ArrayList".(è§Ë¹8§‹‘ÆÚ1
+
+java:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(äø÷8§‹‘ÆÚ1
+†
+java:S1319"iThe type of "empleados" should be an interface such as "List" rather than the implementation "ArrayList".(˜ˆ£Ê8§‹‘ÆÚ1
+’
+java:S1319 "pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(–ü†şşÿÿÿÿ8§‹‘ÆÚ1
+Š
+java:S1319$"hThe type of "clientes" should be an interface such as "List" rather than the implementation "ArrayList".(È‘¢‡ÿÿÿÿÿ8§‹‘ÆÚ1
+L	java:S1062"+Replace this use of System.out by a logger.(šûã‡şÿÿÿÿ8’Á”ÆÚ1

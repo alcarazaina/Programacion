@@ -1,0 +1,42 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(£Ø¶˜
+]
+java:S1854"BRemove this useless assignment to local variable "ultimoCaracter".(Èîƒ•ıÿÿÿÿ
+?	java:S106"+Replace this use of System.out by a logger.(„³˜D
+?	java:S106"+Replace this use of System.out by a logger.(ƒÚáB
+@	java:S106
+"+Replace this use of System.out by a logger.(°Î›˜
+E	java:S106"+Replace this use of System.out by a logger.(ÓÚÇ”úÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(ÑÉ›ıÿÿÿÿ
+@	java:S106"+Replace this use of System.out by a logger.(’¦šã
+E	java:S106"+Replace this use of System.out by a logger.(àÓÏ¼úÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(àÊÉ‚ıÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(ê÷ß×ÿÿÿÿÿ
+N
+java:S1481"3Remove this unused "ultimoCaracter" local variable.(Èîƒ•ıÿÿÿÿ
+Q	java:S125""<This block of commented-out lines of code should be removed.(ßà”Ø
+E	java:S106$"+Replace this use of System.out by a logger.(åÎê”şÿÿÿÿ
+E	java:S106&"+Replace this use of System.out by a logger.(Â¹şßüÿÿÿÿ
+P	java:S125("<This block of commented-out lines of code should be removed.(÷¸€
+E	java:S106*"+Replace this use of System.out by a logger.(›ó×âøÿÿÿÿ
+Q	java:S125,"<This block of commented-out lines of code should be removed.(˜Šññ
+@	java:S106."+Replace this use of System.out by a logger.(ÔÈ›°
+V	java:S1250"<This block of commented-out lines of code should be removed.(È»‡²ùÿÿÿÿ
+E	java:S1062"+Replace this use of System.out by a logger.(Š©Åùÿÿÿÿ
+@	java:S1066"+Replace this use of System.out by a logger.(ø³ï
+V	java:S1258"<This block of commented-out lines of code should be removed.(¤¥Òºúÿÿÿÿ
+@	java:S106:"+Replace this use of System.out by a logger.(î…‰“
+V	java:S125<"<This block of commented-out lines of code should be removed.(ùŠ»”ùÿÿÿÿ
+E	java:S106>"+Replace this use of System.out by a logger.(Ğ»Çíøÿÿÿÿ
+E	java:S106B"+Replace this use of System.out by a logger.(¾””Õùÿÿÿÿ
+M
+java:S1135D"2Complete the task associated to this TODO comment.(“„ÔŒıÿÿÿÿ
+E	java:S106F"+Replace this use of System.out by a logger.(Ã¿î‘ÿÿÿÿÿ
+E	java:S106H"+Replace this use of System.out by a logger.(Õ»¹†ÿÿÿÿÿ
+E	java:S106I"+Replace this use of System.out by a logger.(¢ì£°şÿÿÿÿ
+@	java:S106L"+Replace this use of System.out by a logger.(±Š®×
+E	java:S106M"+Replace this use of System.out by a logger.(“ÄÀãüÿÿÿÿ
+@	java:S106V"+Replace this use of System.out by a logger.(ËœÏ×
+@	java:S106W"+Replace this use of System.out by a logger.(‡ŠÕ›
+E	java:S106Y"+Replace this use of System.out by a logger.(§Î²¼ùÿÿÿÿ
+@	java:S106Z"+Replace this use of System.out by a logger.(ÉÑ’
