@@ -557,3 +557,5 @@ l
 <TerceraEvaluacion/src/main/java/teoria/interfaces/Clase.java,9\3\936913ecced3cc39395006df19b9f9f0f867d351
 k
 ;TerceraEvaluacion/src/main/java/teoria/interfaces/Main.java,0\1\016d6e810270b6b3a0224f9693e72192e8f5bd54
+t
+DTerceraEvaluacion/src/main/java/labatalladelasalmas/MainPruebas.java,6\c\6ccfcfd1be42f6b39127a4d85f8664d775abc984

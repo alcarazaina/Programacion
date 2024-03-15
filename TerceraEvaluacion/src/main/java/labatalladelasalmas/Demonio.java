@@ -6,7 +6,7 @@ public class Demonio extends  Incorpóreo{
     private int maldad;
 
 
-    public Demonio(int bondad, int maldad) {
+    public Demonio(int maldad) {
         this.bondad = bondad;
         this.maldad = maldad;
     }
@@ -28,7 +28,15 @@ public class Demonio extends  Incorpóreo{
     }
 
     @Override
-    public void mostrar() {
-
+    public String toString() {
+        return "Demonio{" +
+                "maldad=" + maldad +
+                '}';
     }
+
+    @Override
+    public void mostrar() {
+        System.out.println(this.toString());
+    }
+
 }
