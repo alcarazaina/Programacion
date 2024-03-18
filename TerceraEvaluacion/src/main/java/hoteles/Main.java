@@ -11,13 +11,19 @@ public class Main {
         hotel1.setPrecio(36);
 
     Hotel hotel2 = new Hotel(1, 500, Zona.PLAYA);
-
+    Hotel hotel3 = new Hotel(2, 300, Zona.MONTAÑA);
 
     int hashCode1 = hotel1.hashCode();
     int hashCode2 = hotel2.hashCode();
+    int hashCode3 = hotel3.hashCode();
 
         System.out.println("¿Es el mismo hotel? " + (hashCode1 == hashCode2));
 
         System.out.println(hotel1.equals(hotel2));
+
+        System.out.println("¿Es el mismo hotel? " + (hashCode1 == hashCode3));
+
+        System.out.println(hotel1.equals(hotel3));
+
     }
 }
