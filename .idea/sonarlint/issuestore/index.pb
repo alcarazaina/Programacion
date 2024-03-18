@@ -559,3 +559,17 @@ k
 ;TerceraEvaluacion/src/main/java/teoria/interfaces/Main.java,0\1\016d6e810270b6b3a0224f9693e72192e8f5bd54
 t
 DTerceraEvaluacion/src/main/java/labatalladelasalmas/MainPruebas.java,6\c\6ccfcfd1be42f6b39127a4d85f8664d775abc984
+u
+ETerceraEvaluacion/src/main/java/teoria/claseobject/EjemploObject.java,4\2\427fcfa3ac4010f8568e25ec6ffd0130dedd0ff1
+r
+BTerceraEvaluacion/src/main/java/teoria/claseobject/MainObject.java,e\a\ea49b99b5d5aa14b407912d3adcfd7ccb729f2ef
+†
+VTerceraEvaluacion/src/main/java/teoria/claseobject/ejemploequalsyhashcode/Usuario.java,7\d\7d6da5db34472b669ef641f6ec45cd4afbcf94fa
+ƒ
+STerceraEvaluacion/src/main/java/teoria/claseobject/ejemploequalsyhashcode/Main.java,8\f\8f7aefd6619029a19eca39a65704bd2f01553226
+b
+2TerceraEvaluacion/src/main/java/hoteles/Hotel.java,f\f\ff627dff8d9414f7cb2b28f85bcfe19f6baaf4d8
+a
+1TerceraEvaluacion/src/main/java/hoteles/Main.java,5\8\58d48829cefbffd049d8389c3162560ece9d0497
+a
+1TerceraEvaluacion/src/main/java/hoteles/Zona.java,6\f\6f563f6cea534f77e08a11ffc6a78299db5e0e20
