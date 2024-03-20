@@ -3,6 +3,7 @@ package teoria.biblioteca;
 import java.lang.reflect.Array;
 import java.time.LocalDate;
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class Main {
     public static void main(String[] args) {
@@ -18,6 +19,17 @@ public class Main {
         socios.add(socio2);
         socios.add(socio3);
         socios.add(socio4);
+
+        //ordenamos el arraylist
+        Collections.sort(socios);
+
+        // e imprimimos el arraylist, se supone que tiene que aparecer ordenados por fecha de nacimiento porque eso es lo que hemos indicado en el método compareTo
+
+        for (Socio socio: socios) {
+            System.out.println(socio);
+
+        }
+
 
     }
 }
