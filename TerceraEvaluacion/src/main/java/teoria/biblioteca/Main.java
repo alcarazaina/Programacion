@@ -21,15 +21,38 @@ public class Main {
         socios.add(socio4);
 
         //ordenamos el arraylist
-        Collections.sort(socios);
+        //Collections.sort(socios);
 
         // e imprimimos el arraylist, se supone que tiene que aparecer ordenados por fecha de nacimiento porque eso es lo que hemos indicado en el método compareTo
 
+
+        // ahora vamos a probar esta nueva clase
+        // antes, debemos desordenar el arraylist. Para eso tenemos el método shuffle
+
+        // comprobamos que está desordenado
         for (Socio socio: socios) {
             System.out.println(socio);
-
         }
+        System.out.println();
+        // ahora para ordenar utilizando comparator debemos crear un objeto de la clase comparadora
+        CompararFechaNacimiento comparador = new CompararFechaNacimiento();
+
+        socios.sort(comparador);
+        // volvemos a imprimir
+        imprimirSocios(socios);
+
+        // ahora ordenamos en orden inverso
+        socios.sort(comparador.reversed());
+
+        System.out.println("\nOrden inverso:");
+        imprimirSocios(socios);
 
 
+    }
+
+    public static void imprimirSocios(ArrayList<Socio> socios) {
+        for (Socio socio: socios) {
+            System.out.println(socio);
+        }
     }
 }
