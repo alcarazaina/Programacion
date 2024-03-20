@@ -573,3 +573,7 @@ a
 1TerceraEvaluacion/src/main/java/hoteles/Main.java,5\8\58d48829cefbffd049d8389c3162560ece9d0497
 a
 1TerceraEvaluacion/src/main/java/hoteles/Zona.java,6\f\6f563f6cea534f77e08a11ffc6a78299db5e0e20
+l
+<TerceraEvaluacion/src/main/java/teoria/biblioteca/Socio.java,3\0\3016f471a49c30968818bdb1016f23c8971aa622
+k
+;TerceraEvaluacion/src/main/java/teoria/biblioteca/Main.java,c\0\c03f7eeb8c7e3204af79974ea7e3c37c01f8c791
