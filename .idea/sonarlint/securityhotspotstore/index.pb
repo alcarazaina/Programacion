@@ -579,3 +579,9 @@ k
 ;TerceraEvaluacion/src/main/java/teoria/biblioteca/Main.java,c\0\c03f7eeb8c7e3204af79974ea7e3c37c01f8c791
 ~
 NTerceraEvaluacion/src/main/java/teoria/biblioteca/CompararFechaNacimiento.java,e\5\e5c84c03d117b50fc3a65387886f250bf93ba41a
+k
+;TerceraEvaluacion/src/main/java/hoteles/CompararPrecio.java,e\6\e623fb52e3a28230c90a9e6f7ff2be7578c14a10
+b
+2TerceraEvaluacion/src/main/java/hoteles/Main2.java,6\8\68a022386a0f8d7b5673ced3d239d26a931dd5cd
+g
+7TerceraEvaluacion/src/main/java/hoteles/CompararId.java,4\2\422d46444156427e991aaad9544d50ed002cdcb1
