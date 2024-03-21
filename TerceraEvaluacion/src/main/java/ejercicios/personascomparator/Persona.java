@@ -37,10 +37,8 @@ public class Persona {
 
     @Override
     public String toString() {
-        return "Persona{" +
-                "nombre='" + nombre + '\'' +
-                ", edad=" + edad +
-                ", altura=" + altura +
-                '}';
+        return "Persona -> " + nombre +
+                ", edad: " + edad +
+                ", altura: " + altura;
     }
 }
