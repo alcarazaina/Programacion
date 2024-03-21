@@ -585,3 +585,11 @@ b
 2TerceraEvaluacion/src/main/java/hoteles/Main2.java,6\8\68a022386a0f8d7b5673ced3d239d26a931dd5cd
 g
 7TerceraEvaluacion/src/main/java/hoteles/CompararId.java,4\2\422d46444156427e991aaad9544d50ed002cdcb1
+z
+JTerceraEvaluacion/src/main/java/ejercicios/personascomparator/Persona.java,d\3\d36fe4953dc3fb3dfbb63c18968ddea6c2a173fd
+
+OTerceraEvaluacion/src/main/java/ejercicios/personascomparator/CompararEdad.java,d\a\daddec0658ec574e11969b78dc0abede2d5b19d9
+Å
+QTerceraEvaluacion/src/main/java/ejercicios/personascomparator/CompararAltura.java,2\c\2c9518d1da40655ec26bcf1450dc15a341dddd79
+w
+GTerceraEvaluacion/src/main/java/ejercicios/personascomparator/Main.java,1\a\1a8e820c38f6fb577183183d7d78102831334f6b
