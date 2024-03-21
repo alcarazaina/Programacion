@@ -39,8 +39,6 @@ public class Main {
         impromirPersonas(personas);
 
 
-
-
     }
     public static void impromirPersonas (ArrayList<Persona> personas){
         for (Persona persona: personas) {
