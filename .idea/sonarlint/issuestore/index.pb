@@ -593,3 +593,7 @@ OTerceraEvaluacion/src/main/java/ejercicios/personascomparator/CompararEdad.java
 QTerceraEvaluacion/src/main/java/ejercicios/personascomparator/CompararAltura.java,2\c\2c9518d1da40655ec26bcf1450dc15a341dddd79
 w
 GTerceraEvaluacion/src/main/java/ejercicios/personascomparator/Main.java,1\a\1a8e820c38f6fb577183183d7d78102831334f6b
+Å
+QTerceraEvaluacion/src/main/java/lambda/teoriainterfacesfuncionales/HolaMundo.java,f\3\f39fbbd521465636de99c28d6133c1dde05a0360
+|
+LTerceraEvaluacion/src/main/java/lambda/teoriainterfacesfuncionales/Main.java,2\4\24f1495fac8764da933144340b3091e659c44e26
