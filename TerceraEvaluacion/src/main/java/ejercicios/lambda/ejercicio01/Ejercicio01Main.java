@@ -81,14 +81,41 @@ public class Ejercicio01Main {
         personas.add(new Persona("Sergio", 13));
         personas.add(new Persona("Ana", 8));
         personas.add(new Persona("Alejandro", 27));
+        System.out.println("\nRecién creada la lista: ");
+        System.out.println(personas);
 
+        //Ordenamos por edades de menor a mayor
+        //además, por primera vez vamos a utilizar una versión más corta.
+        personas.sort((p1, p2) -> p1.getEdad() - p2.getEdad());
+        System.out.println("\nOrdrenamos por edad (de menor a mayor)");
+        System.out.println(personas);
 
+        //si queremos de mayor a menor
+        // personas.sort((p1,p2) -> p2.getEdad() - p1.getEdad());
+        // System.out.println("\nOrdrenamos por edad (de mayor a menor)");
+        // System.out.println(personas);
+
+        // y después cogemos el primero de la lista.
+        System.out.println("Persona más joven: " + personas.get(0));
+
+        //si nos pidieran sin volver a ordenar el último elemento de la lista
+        System.out.println("Persona más mayor: " + personas.get(personas.size() - 1));
 
         // 6. Crea una lista de objetos de tipo Persona (con atributos nombre y edad) y utiliza una expresión lambda para ordenar la lista por edad, de menor a mayor.
+            //hecho en el ejercicio anterior
+
         // 7. Crea una lista de objetos de tipo Persona y utiliza una expresión lambda para filtrar las personas que tienen una edad mayor a 30.
+
+
         // 8. Crea una lista de objetos de tipo Producto (con atributos nombre y precio) y utiliza una expresión lambda para calcular el precio total de la lista.
+
+
         // 9. Crea una lista de objetos de tipo Producto y utiliza una expresión lambda para ordenar la lista por precio, de mayor a menor.
+
+
         // 10. Crea una lista de objetos de tipo Producto y utiliza una expresión lambda para filtrar los productos que tienen un precio menor a 10.
+
+
 
     }
 }
