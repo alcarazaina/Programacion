@@ -641,3 +641,7 @@ s
 CTerceraEvaluacion/src/main/java/teoria/predicate/MainPredicado.java,f\3\f374be4a7a3ade276fe24f812b168d9e40f530e5
 ~
 NTerceraEvaluacion/src/main/java/ejercicios/lambda/ejercicio03/Ejercicio03.java,5\e\5e456f448d0ac6887b8fead502458afac021ef14
+k
+;TerceraEvaluacion/src/main/java/teoria/predicate/Socio.java,a\2\a291450a65a8cb33a36d3c4673aee19091dd23a0
+z
+JTerceraEvaluacion/src/main/java/teoria/predicate/MainMetodosPredicate.java,f\0\f0a1370068d80b1b52197e616e81f370e139bffd
