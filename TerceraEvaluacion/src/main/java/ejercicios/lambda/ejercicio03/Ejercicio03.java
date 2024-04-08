@@ -21,9 +21,9 @@ public class Ejercicio03 {
         System.out.println(esParYMul3.test(18));
 
         // 4. Define un predicado para comprobar si un carácter es una letra y está en mayúscula.
-        Predicate<Character> esMayuscula = caracter -> caracter >= 'A' && caracter <= 'Z';
+        Predicate<Character> esMayuscula = caracter -> Character.isUpperCase(caracter);
         System.out.println("Es una letra mayúscula: ");
-        System.out.println(esMayuscula.test('S'));
+        System.out.println(esMayuscula.test('D'));
 
         // 5. Define un predicado para comprobar si un entero es impar y múltiplo de 7.
         Predicate<Integer> esImparYMul7 = numero -> numero % 2 != 0 && numero % 7 == 0;
