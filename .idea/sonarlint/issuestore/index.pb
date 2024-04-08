@@ -637,3 +637,7 @@ TTerceraEvaluacion/src/main/java/teoria/lambda/teoriainterfacesfuncionales/Sumar
 KTerceraEvaluacion/src/main/java/ejercicios/lambda/ejercicio02/Paciente.java,a\9\a9618c4df429ee1af7ae8678ebf42d760fa0b649
 ~
 NTerceraEvaluacion/src/main/java/ejercicios/lambda/ejercicio02/Ejercicio02.java,b\e\be19bc8b92e5068a98befafce80caa79e4fefd75
+s
+CTerceraEvaluacion/src/main/java/teoria/predicate/MainPredicado.java,f\3\f374be4a7a3ade276fe24f812b168d9e40f530e5
+~
+NTerceraEvaluacion/src/main/java/ejercicios/lambda/ejercicio03/Ejercicio03.java,5\e\5e456f448d0ac6887b8fead502458afac021ef14
