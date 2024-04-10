@@ -105,7 +105,8 @@ public class Ejercicio01Main {
             //hecho en el ejercicio anterior
 
         // 7. Crea una lista de objetos de tipo Persona y utiliza una expresión lambda para filtrar las personas que tienen una edad mayor a 30.
-
+        System.out.println("Ejercicio 07");
+        personas.stream().filter(persona -> persona.getEdad() > 30).forEach(persona -> System.out.print(persona + ", "));
 
         // 8. Crea una lista de objetos de tipo Producto (con atributos nombre y precio) y utiliza una expresión lambda para calcular el precio total de la lista.
 
