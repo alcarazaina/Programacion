@@ -649,3 +649,7 @@ JTerceraEvaluacion/src/main/java/teoria/predicate/MainMetodosPredicate.java,f\0
 KTerceraEvaluacion/src/main/java/ejercicios/lambda/ejercicio01/Producto.java,6\4\645f67f8881ec6fd236a812b7d907cf3fbbd322b
 ‚
 RTerceraEvaluacion/src/main/java/ejercicios/lambda/ejercicio01/Ejercicio01Ocho.java,5\6\561af7140be261e1ed0b735f06ae118c3bb298dc
+u
+ETerceraEvaluacion/src/main/java/teoria/function/EjemplosFunction.java,2\e\2e761e9b90065e3ad09d12ccafba52d25c591b4b
+l
+<TerceraEvaluacion/src/main/java/teoria/function/Persona.java,d\e\deef0f5eb6278baf2cfc862c6f6ab3e73e053a18
