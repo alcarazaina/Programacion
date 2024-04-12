@@ -653,3 +653,13 @@ u
 ETerceraEvaluacion/src/main/java/teoria/function/EjemplosFunction.java,2\e\2e761e9b90065e3ad09d12ccafba52d25c591b4b
 l
 <TerceraEvaluacion/src/main/java/teoria/function/Persona.java,d\e\deef0f5eb6278baf2cfc862c6f6ab3e73e053a18
+~
+NTerceraEvaluacion/src/main/java/ejercicios/lambda/ejercicio04/ejercicio04.java,d\6\d6f0020fc210c3350d8757e74a3dd4203fac30f8
+m
+=TerceraEvaluacion/src/main/java/teoria/consumer/Consumer.java,0\8\08be70219d5f7c373a1955dec9652cffa4cfe541
+q
+ATerceraEvaluacion/src/main/java/teoria/consumer/MainConsumer.java,a\6\a66b9f76844dcb3b956d9a43d38241ba4886c403
+q
+ATerceraEvaluacion/src/main/java/teoria/supplier/MainSupplier.java,2\1\216672eaf040cabc2975ff885b07d8298d8569b2
+‚
+RTerceraEvaluacion/src/main/java/ejercicios/stream/ejercicio01/MainEjercicio01.java,b\6\b6865f37dd4e06aa86439b7cb65e6120a474fe2d
