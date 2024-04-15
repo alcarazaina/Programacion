@@ -655,11 +655,15 @@ l
 <TerceraEvaluacion/src/main/java/teoria/function/Persona.java,d\e\deef0f5eb6278baf2cfc862c6f6ab3e73e053a18
 ~
 NTerceraEvaluacion/src/main/java/ejercicios/lambda/ejercicio04/ejercicio04.java,d\6\d6f0020fc210c3350d8757e74a3dd4203fac30f8
-m
-=TerceraEvaluacion/src/main/java/teoria/consumer/Consumer.java,0\8\08be70219d5f7c373a1955dec9652cffa4cfe541
 q
 ATerceraEvaluacion/src/main/java/teoria/consumer/MainConsumer.java,a\6\a66b9f76844dcb3b956d9a43d38241ba4886c403
 q
 ATerceraEvaluacion/src/main/java/teoria/supplier/MainSupplier.java,2\1\216672eaf040cabc2975ff885b07d8298d8569b2
 ‚
 RTerceraEvaluacion/src/main/java/ejercicios/stream/ejercicio01/MainEjercicio01.java,b\6\b6865f37dd4e06aa86439b7cb65e6120a474fe2d
+|
+LTerceraEvaluacion/src/main/java/ejercicios/stream/ejercicio02/Personaje.java,d\2\d28504c659162ff8c2da4d7ea54f8b487da4ee03
+w
+GTerceraEvaluacion/src/main/java/ejercicios/stream/ejercicio02/Arma.java,9\e\9e8230c8fb5db5e76fe10d8249efc8a751318ec9
+‚
+RTerceraEvaluacion/src/main/java/ejercicios/stream/ejercicio02/MainEjercicio02.java,c\b\cb3411dcf5296a8f6272fdc7adc8dd194d8fc1d7
