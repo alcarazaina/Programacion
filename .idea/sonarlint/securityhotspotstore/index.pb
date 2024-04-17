@@ -667,3 +667,5 @@ w
 GTerceraEvaluacion/src/main/java/ejercicios/stream/ejercicio02/Arma.java,9\e\9e8230c8fb5db5e76fe10d8249efc8a751318ec9
 ‚
 RTerceraEvaluacion/src/main/java/ejercicios/stream/ejercicio02/MainEjercicio02.java,c\b\cb3411dcf5296a8f6272fdc7adc8dd194d8fc1d7
+‚
+RTerceraEvaluacion/src/main/java/ejercicios/stream/ejercicio03/MainEjercicio03.java,3\e\3e0a54e59435b3d5b94b8e85ecec095977794af1
