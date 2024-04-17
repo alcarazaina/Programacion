@@ -48,9 +48,15 @@ public class Personaje {
 
     @Override
     public String toString() {
-        return nombre + " | " +
+        String h;
+        if (esHumano){
+            h = "Sí";
+        } else {
+            h = "No";
+        }
+        return nombre + ": " +
                 "\n Edad: " + edad +
-                "\n ¿Humano? " + esHumano +
+                "\n ¿Humano? " + h +
                 "\n Arma: " + arma;
     }
 }
