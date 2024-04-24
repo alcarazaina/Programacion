@@ -683,3 +683,13 @@ j
 :TerceraEvaluacion/src/main/java/teoria/ficheros/fichero.md,9\5\9505d5b6047e63d3c13c4e07ca0f87e947cf48ce
 r
 BTerceraEvaluacion/src/main/java/teoria/ficheros/carpeta/fichero.md,b\f\bfe4b0589b7e50032b5645c2c69b1e86fc26fb2f
+s
+CTerceraEvaluacion/src/main/java/teoria/ficheros/EjemploScanner.java,5\e\5e71f00912cc3dfaf64556b80242b689c8c5c9a8
+l
+<TerceraEvaluacion/src/main/java/teoria/ficheros/fichero1.txt,2\2\223a130043e477a89003b35db96a3bf36ea62d48
+t
+DTerceraEvaluacion/src/main/java/teoria/ficheros/ScannerNextLine.java,c\9\c93e8853c9d64bd2cfc9402e09eac1ab4904ebf7
+{
+KTerceraEvaluacion/src/main/java/teoria/ficheros/EjemploScannerNextLine.java,a\6\a6845ca749cbec96c0dba015f4bdd939514ee812
+z
+JTerceraEvaluacion/src/main/java/teoria/ficheros/EjemploScannerNextInt.java,7\9\79b85db4b1ddd442a49430d2adcdf2a5b8597335
