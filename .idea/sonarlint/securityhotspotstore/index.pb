@@ -701,7 +701,11 @@ WTerceraEvaluacion/src/main/java/ejercicios/ficherosdetexto/ejercicio05/Ejercici
 XTerceraEvaluacion/src/main/java/ejercicios/ficherosdetexto/ejercicio05/dataset_91007.txt,0\6\0681f270f640423e3de792925a3843dab85478c3
 ‡
 WTerceraEvaluacion/src/main/java/ejercicios/ficherosdetexto/ejercicio06/Ejercicio06.java,b\d\bd33a93f0000de758bb2419af4b4f8849c86be4c
-Š
-ZTerceraEvaluacion/src/main/java/ejercicios/ficherosdetexto/ejercicio04/ficheroborrable.txt,6\1\6166d6562ff0ab9b6db70eb3b17956616b2343bb
 ‚
 RTerceraEvaluacion/src/main/java/ejercicios/ficherosdetexto/ejercicio06/cadenas.txt,c\3\c311a7ba4dbcbf05101af729bf0eda3deb3e8d57
+v
+FTerceraEvaluacion/src/main/java/teoria/ficheros/EjemploFileWriter.java,0\4\04ba907877985e66858aece32ca496c75a3e6e4b
+l
+<TerceraEvaluacion/src/main/java/teoria/ficheros/escribir.txt,2\9\29d0267c0a1679c29582faf9a767682833d82161
+‡
+WTerceraEvaluacion/src/main/java/ejercicios/ficherosdetexto/ejercicio07/Ejercicio07.java,3\a\3a1728ff3a5fca7cca8ac5905d2c5a4ce6e92029
