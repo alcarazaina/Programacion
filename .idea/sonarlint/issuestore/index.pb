@@ -709,3 +709,7 @@ l
 <TerceraEvaluacion/src/main/java/teoria/ficheros/escribir.txt,2\9\29d0267c0a1679c29582faf9a767682833d82161
 ‡
 WTerceraEvaluacion/src/main/java/ejercicios/ficherosdetexto/ejercicio07/Ejercicio07.java,3\a\3a1728ff3a5fca7cca8ac5905d2c5a4ce6e92029
+€
+PTerceraEvaluacion/src/main/java/ejercicios/ficherosdetexto/ejercicio07/datos.txt,c\9\c9f3c34bf5beeec0b060f24274d2b3f87866df36
+‡
+WTerceraEvaluacion/src/main/java/ejercicios/ficherosdetexto/ejercicio09/Ejercicio09.java,c\6\c65fa70fb73a48347469c0c24a5a512fed530594
