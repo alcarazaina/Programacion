@@ -3,6 +3,8 @@ package exepciones.videos.v2excepciones;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
+
+// TRY CATCH FINALLY
 public class Video02 {
     public static void main(String[] args) {
 

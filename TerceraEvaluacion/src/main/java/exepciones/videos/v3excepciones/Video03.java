@@ -3,6 +3,9 @@ package exepciones.videos.v3excepciones;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
+
+
+// THROW Y THROWS
 public class Video03 {
     public static void main(String[] args) {
 
